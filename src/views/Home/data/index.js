@@ -61,6 +61,137 @@ export const account = [
   },
 ];
 
+export const articles = [
+  {
+    cover: {
+      src: 'https://ppcprotect.com/static/67cbd04cb563d03e3b395a57f7ed7653/digital-marketing-tips-cover.jpg',
+      srcSet: 'https://ppcprotect.com/static/67cbd04cb563d03e3b395a57f7ed7653/digital-marketing-tips-cover.jpg 2x',
+    },
+    title: '25 Best Digital Marketing Tips And Tricks From The Pros',
+    author: 'By Sam Carr',
+    date: 'November 12th, 2020',
+    url: 'https://ppcprotect.com/digital-marketing-tips/'
+  },
+  {
+    cover: {
+      src: '/images/photos/articles/Eleanor-Bennett-data-analysis.jpg',
+      srcSet: '/images/photos/articles/Eleanor-Bennett-data-analysis.jpg 2x',
+    },
+    title: 'How App Developers Can Use Data Analysis For Success',
+    author: 'By Eleanor Bennett',
+    date: 'November 11th, 2020',
+    url: 'https://logit.io/blog/post/how-app-developers-can-use-data-analysis-to-become-more-successful'
+  },
+  {
+    cover: {
+      src: 'https://cdnwebsite.databox.com/wp-content/uploads/2020/09/21051206/reduce-exit-rate.png',
+      srcSet: 'https://cdnwebsite.databox.com/wp-content/uploads/2020/09/21051206/reduce-exit-rate.png 2x',
+    },
+    title: '14 Ways to Lower Your Website’s Exit Rate',
+    author: 'By Archita Sharma',
+    date: 'October 23rd, 2020',
+    url: 'https://databox.com/lower-exit-rate'
+  },
+  {
+    cover: {
+      src: 'https://e9v9h3t8.stackpathcdn.com/wp-content/uploads/sites/3/2018/10/CBNation.co-Roundups-16.png',
+      srcSet: 'https://e9v9h3t8.stackpathcdn.com/wp-content/uploads/sites/3/2018/10/CBNation.co-Roundups-16.png 2x',
+    },
+    title: '23 Entrepreneurs Explain How They Use Social Media For Business',
+    author: 'By Mercy - CBNation',
+    date: 'October 18th, 2020',
+    url: 'https://rescue.ceoblognation.com/2020/10/18/23-entrepreneurs-explain-how-they-use-social-media-for-business/'
+  },
+  {
+    cover: {
+      src: 'https://images.squarespace-cdn.com/content/v1/5e891c2746d9d05b34bf1c4f/1599161043445-C21DAA4KZIX62QOV9539/ke17ZwdGBToddI8pDm48kLl76CqolYQpYCK1tQUkpCVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzq3NVIIp6jYqnwxy-xF8aVXRy_AJKc5toB5m-gAPM7p7ivWsEabuWKGrHqsHOeNt4/What+is+the+best+way+for+brands+to+audit+their+digital+footprint_.jpg?format=1000w',
+      srcSet: 'https://images.squarespace-cdn.com/content/v1/5e891c2746d9d05b34bf1c4f/1599161043445-C21DAA4KZIX62QOV9539/ke17ZwdGBToddI8pDm48kLl76CqolYQpYCK1tQUkpCVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzq3NVIIp6jYqnwxy-xF8aVXRy_AJKc5toB5m-gAPM7p7ivWsEabuWKGrHqsHOeNt4/What+is+the+best+way+for+brands+to+audit+their+digital+footprint_.jpg?format=1000w 2x',
+    },
+    title: 'How to Audit Your Brand’s Digital Footprint: 16 Experts Give Advice',
+    author: 'By Josh Ochs',
+    date: 'October 10th, 2020',
+    url: 'https://medialeaders.com/blog/digital-brand-footprint'
+  },
+  {
+    cover: {
+      src: 'https://blog.mycorporation.com/wp-content/uploads/2020/09/soundtrap-GZ56k0qTuc0-unsplash-560x416.jpg',
+      srcSet: 'https://blog.mycorporation.com/wp-content/uploads/2020/09/soundtrap-GZ56k0qTuc0-unsplash-560x416.jpg 2x',
+    },
+    title: '35 Must-Haves to Start a Business',
+    author: 'By Deborah Sweeney',
+    date: 'October 5th, 2020',
+    url: 'https://blog.mycorporation.com/2020/10/start-a-business/'
+  },
+  {
+    cover: {
+      src: 'https://www.welivetobuild.com/wp-content/uploads/2020/09/12-Entrepreneurs-share-what-stopped-them-from-starting-a-company.png',
+      srcSet: 'https://www.welivetobuild.com/wp-content/uploads/2020/09/12-Entrepreneurs-share-what-stopped-them-from-starting-a-company.png 2x',
+    },
+    title: '12 entrepreneuers share what stopped them from starting their first company',
+    author: 'By Sean Weisbrot',
+    date: 'September 25th, 2020',
+    url: 'https://www.welivetobuild.com/blog/12-entrepreneurs-share-what-stopped-them-from-starting-their-first-company/'
+  },
+  {
+    cover: {
+      src: 'https://lh6.googleusercontent.com/-I_PAZkLCrQZAhPjV3cqIfJPxtgMvpFKlxs4nf_gLoR-US4pQ3YY4C1_jtMl-LTbMWBD3NfAxozRbdWdP4ZN_P1FVAsX3ZOfSRo-_JkII4BoKIKobOmS5ETnkCAEd33yqwMycRdt',
+      srcSet: 'https://lh6.googleusercontent.com/-I_PAZkLCrQZAhPjV3cqIfJPxtgMvpFKlxs4nf_gLoR-US4pQ3YY4C1_jtMl-LTbMWBD3NfAxozRbdWdP4ZN_P1FVAsX3ZOfSRo-_JkII4BoKIKobOmS5ETnkCAEd33yqwMycRdt 2x',
+    },
+    title: 'How To Test An MVP: 5 Proven Strategies (Third Rock Techkno)',
+    author: 'By Krunal Shah',
+    date: 'September 10th, 2020',
+    url: 'https://www.thirdrocktechkno.com/blog/how-to-test-an-mvp-5-proven-strategies/'
+  },
+  {
+    cover: {
+      src: 'https://www.crmbuyer.com/article_images/story_graphics_xlarge/xl-2017-customer-loyalty-1.jpg',
+      srcSet: 'https://www.crmbuyer.com/article_images/story_graphics_xlarge/xl-2017-customer-loyalty-1.jpg 2x',
+    },
+    title: 'Consumers expect more from brands to earn loyalty (CRM Buyer)',
+    author: 'By Jack M. Germain',
+    date: 'August 18th, 2020',
+    url: 'https://www.crmbuyer.com/story/Consumers-Expect-More-From-Brands-to-Earn-Loyalty-86803.html'
+  }
+];
+
+export const folio = [
+  {
+    cover: 'https://marketmetrics.io/images/illustrations/reports.gif',
+    title: 'Market Metrics',
+    subtitle:
+      'Enable agencies to reduce the time spent doing non-billable work.',
+    h: 500,
+  },
+  {
+    cover: '/images/photos/blog/fred.png',
+    title: 'Federal Reserve Economic Dataset Client',
+    subtitle:
+      'A Golang client to provide access to the Federal Resever Economic Dataset',
+    h: 500,
+  },
+  {
+    cover: '/images/photos/blog/Screenshot2.png',
+    title: 'Eventy',
+    subtitle:
+      'A multi-sided marketplace that connects people through live experiences.',
+    h: 500,
+  },
+  {
+    cover: '/images/photos/blog/galaxy.png',
+    title: 'Pedigree Imputation',
+    subtitle:
+      'Use pedigree and ancestral genotype observations to infer the likely genotypes of maize population.',
+    h: 800,
+  },
+  {
+    cover: '/images/photos/blog/ctl-status.png',
+    title: 'CenturyLink Status',
+    subtitle:
+      'A web app and Google Chrome extension that defines the status of every CenturyLink cloud-based infrastructure service in every global location.',
+    h: 550,
+  }
+];
+
 export const landings = [
   {
     title: 'Coworking',

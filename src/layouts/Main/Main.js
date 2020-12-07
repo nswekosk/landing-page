@@ -22,29 +22,49 @@ const Main = props => {
   });
 
   const pages = {
-    pages: {
-      title: 'Projects',
-      id: 'supported-pages',
+    education: {
+      title: 'Education',
+      id: 'education',
       children: {
-        healthcare: {
-          groupTitle: 'Healthcare',
+        physicaltherapy: {
+          groupTitle: 'Physical Therapy',
           pages: [
             {
-              title: 'Infection Prevention',
+              title: 'Docatorate Candidate',
               href: '/career-listing-minimal',
-            },
-            {
-              title: 'Doctorate Candidate',
-              href: '/career-listing',
             }
           ],
         },
+        engineering: {
+          groupTitle: 'Engineering',
+          pages: [
+            {
+              title: 'Self-Taught',
+              href: '/career-listing',
+            }
+          ],
+        }
+      },
+    },
+    engineering: {
+      title: 'Engineering',
+      id: 'engineering',
+      children: {
         supplychain: {
           groupTitle: 'Supply Chain',
           pages: [
             {
               title: 'Infoplus Commerce',
               href: '/career-listing',
+            }
+          ],
+        },
+        healthcare: {
+          groupTitle: 'Healthcare',
+          pages: [
+            {
+              title: 'Infection Prevention',
+              href: '/career-listing-minimal',
             }
           ],
         },
@@ -78,7 +98,13 @@ const Main = props => {
               href: '/career-listing',
             }
           ],
-        },
+        }
+      },
+    },
+    entrepreneurship: {
+      title: 'Entrepreneurship',
+      id: 'entrepreneurship',
+      children: {
         entertainment: {
           groupTitle: 'Entertainment',
           pages: [

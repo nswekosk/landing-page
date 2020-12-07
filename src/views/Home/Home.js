@@ -2,8 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
-import { Account, Landings, Pages, Hero } from './components';
-import { landings, pages, account } from './data';
+import { About, Articles, Main, Hero } from './components';
+import { folio, articles } from './data';
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -17,16 +17,12 @@ const Home = () => {
       <Section>
         <Hero />
       </Section>
+      <About />
       <SectionAlternate>
-        <Landings data={landings} />
+        <Main data={folio} />
       </SectionAlternate>
-      <Divider />
       <SectionAlternate>
-        <Pages data={pages} />
-      </SectionAlternate>
-      <Divider />
-      <SectionAlternate>
-        <Account data={account} />
+        <Articles data={articles} />
       </SectionAlternate>
     </div>
   );

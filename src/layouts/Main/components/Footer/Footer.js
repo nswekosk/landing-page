@@ -94,7 +94,9 @@ const Footer = props => {
 
   const classes = useStyles();
 
-  const supportedPages = pages.pages;
+  const education = pages.education;
+  const engineering = pages.engineering;
+  const entrepreneurship = pages.entrepreneurship;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -121,16 +123,28 @@ const Footer = props => {
     );
   };
 
-  const SupportedPages = () => {
+  const EducationPages = () => {
+    const {
+      physicaltherapy,
+      engineering      
+    } = education.children;
+    return (
+      <div className={classes.menu}>
+         <div>
+          <MenuGroup item={physicaltherapy} />
+          <MenuGroup item={engineering} />
+        </div>
+      </div>
+    );
+  };
+  const EngineeringPages = () => {
     const {
       healthcare,
       supplychain,
       economics,
       cloudcomputing,
-      genomics,
-      entertainment,
-      marketing
-    } = supportedPages.children;
+      genomics
+    } = engineering.children;
     return (
       <div className={classes.menu}>
          <div>
@@ -139,11 +153,21 @@ const Footer = props => {
         </div>
         <div>
           <MenuGroup item={economics} />
-          <MenuGroup item={cloudcomputing} />
-          <MenuGroup item={marketing} />
-        </div>
-        <div>
           <MenuGroup item={genomics} />
+          <MenuGroup item={cloudcomputing} />
+        </div>
+      </div>
+    );
+  };
+  const EntrepreneurshipPages = () => {
+    const {
+      entertainment,
+      marketing
+    } = entrepreneurship.children;
+    return (
+      <div className={classes.menu}>
+        <div>
+          <MenuGroup item={marketing} />
           <MenuGroup item={entertainment} />
         </div>
       </div>
@@ -181,7 +205,13 @@ const Footer = props => {
           <Grid item xs={12} md={10} className={classes.menuListContainer}>
             <Grid container spacing={0}>
               <Grid item className={classes.listItem}>
-                <SupportedPages />
+                <EducationPages />
+              </Grid>
+              <Grid item className={classes.listItem}>
+                <EngineeringPages />
+              </Grid>
+              <Grid item className={classes.listItem}>
+                <EntrepreneurshipPages />
               </Grid>
             </Grid>
           </Grid>

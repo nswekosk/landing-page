@@ -133,7 +133,9 @@ const Topbar = props => {
     setOpenedPopoverId(null);
   };
 
-  const supportedPages = pages.pages;
+  const education = pages.education;
+  const engineering = pages.engineering;
+  const entrepreneurship = pages.entrepreneurship;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -166,21 +168,32 @@ const Topbar = props => {
     );
   };
 
-  const SupportedPages = () => {
+  const EducationPages = () => {
+    const {
+      physicaltherapy,
+      engineering
+    } = education.children;
+    return (
+      <div className={classes.menu}>
+        <div className={classes.menuItem}>
+          <MenuGroup item={physicaltherapy} />
+          <MenuGroup item={engineering} />
+        </div>
+      </div>
+    );
+  };
+  const EngineeringPages = () => {
     const {
       healthcare,
       supplychain,
       economics,
       cloudcomputing,
       genomics,
-      entertainment,
-      marketing
-    } = supportedPages.children;
+    } = engineering.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
           <MenuGroup item={economics} />
-          <MenuGroup item={marketing} />
           <MenuGroup item={supplychain} />
         </div>
         <div className={classes.menuItem}>
@@ -189,6 +202,19 @@ const Topbar = props => {
         </div>
         <div className={classes.menuItem}>
           <MenuGroup item={healthcare} />
+        </div>
+      </div>
+    );
+  };
+  const EntrepreneurshipPages = () => {
+    const {
+      entertainment,
+      marketing
+    } = entrepreneurship.children;
+    return (
+      <div className={classes.menu}>
+        <div className={classes.menuItem}>
+          <MenuGroup item={marketing} />
           <MenuGroup item={entertainment} />
         </div>
       </div>
@@ -196,8 +222,14 @@ const Topbar = props => {
   };
 
   const renderPages = id => {
-    if (id === 'supported-pages') {
-      return <SupportedPages />;
+    if (id === 'education') {
+      return <EducationPages />;
+    }
+    if (id === 'engineering') {
+      return <EngineeringPages />;
+    }
+    if (id === 'entrepreneurship') {
+      return <EntrepreneurshipPages />;
     }
   };
 
@@ -233,7 +265,7 @@ const Topbar = props => {
                 News
               </Typography>
             </ListItem>
-            {[supportedPages].map((page, i) => (
+            {[education, engineering, entrepreneurship].map((page, i) => (
               <div key={page.id}>
                 <ListItem
                   aria-describedby={page.id}
