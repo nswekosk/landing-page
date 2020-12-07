@@ -205,7 +205,7 @@ const SidebarNav = props => {
           target="blank"
           href="https://material-ui.com/store/items/the-front-landing-page/"
         >
-          Buy Now
+          Contact
         </Button>
       </ListItem>
     </List>

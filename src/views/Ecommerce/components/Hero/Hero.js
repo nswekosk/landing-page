@@ -50,7 +50,7 @@ const Hero = props => {
             subtitle={<span className={classes.price}>$299.95</span>}
             ctaGroup={[
               <Button variant="contained" color="primary" size="large">
-                Buy now
+                Contact
               </Button>,
             ]}
             align="left"

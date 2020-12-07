@@ -9,10 +9,8 @@ import {
   List,
   ListItem,
 } from '@material-ui/core';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import PinterestIcon from '@material-ui/icons/Pinterest';
 
 import { Image } from 'components/atoms';
 
@@ -96,9 +94,7 @@ const Footer = props => {
 
   const classes = useStyles();
 
-  const landings = pages.landings;
   const supportedPages = pages.pages;
-  const account = pages.account;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -125,60 +121,30 @@ const Footer = props => {
     );
   };
 
-  const LandingPages = () => {
-    const { services, apps, web } = landings.children;
-    return (
-      <div className={classes.menu}>
-        <div>
-          <MenuGroup item={services} />
-          <MenuGroup item={apps} />
-        </div>
-        <div>
-          <MenuGroup item={web} />
-        </div>
-      </div>
-    );
-  };
-
   const SupportedPages = () => {
     const {
-      career,
-      helpCenter,
-      company,
-      contact,
-      blog,
-      portfolio,
+      healthcare,
+      supplychain,
+      economics,
+      cloudcomputing,
+      genomics,
+      entertainment,
+      marketing
     } = supportedPages.children;
     return (
       <div className={classes.menu}>
-        <div>
-          <MenuGroup item={career} />
-          <MenuGroup item={helpCenter} />
+         <div>
+          <MenuGroup item={healthcare} />
+          <MenuGroup item={supplychain} />
         </div>
         <div>
-          <MenuGroup item={company} />
-          <MenuGroup item={contact} />
+          <MenuGroup item={economics} />
+          <MenuGroup item={cloudcomputing} />
+          <MenuGroup item={marketing} />
         </div>
         <div>
-          <MenuGroup item={blog} />
-          <MenuGroup item={portfolio} />
-        </div>
-      </div>
-    );
-  };
-
-  const AccountPages = () => {
-    const { settings, signup, signin, password, error } = account.children;
-    return (
-      <div className={classes.menu}>
-        <div>
-          <MenuGroup item={settings} />
-          <MenuGroup item={signup} />
-        </div>
-        <div>
-          <MenuGroup item={signin} />
-          <MenuGroup item={password} />
-          <MenuGroup item={error} />
+          <MenuGroup item={genomics} />
+          <MenuGroup item={entertainment} />
         </div>
       </div>
     );
@@ -203,17 +169,11 @@ const Footer = props => {
                 </div>
               </ListItem>
               <ListItem disableGutters>
-                <IconButton className={classes.socialIcon}>
-                  <FacebookIcon className={classes.icon} />
+                <IconButton className={classes.socialIcon} href="https://www.linkedin.com/in/%F0%9F%93%88-nick-swekosky-4090155b/">
+                  <LinkedInIcon className={classes.icon} />
                 </IconButton>
-                <IconButton className={classes.socialIcon}>
-                  <InstagramIcon className={classes.icon} />
-                </IconButton>
-                <IconButton className={classes.socialIcon}>
+                <IconButton className={classes.socialIcon} href="https://twitter.com/NickSwekosky">
                   <TwitterIcon className={classes.icon} />
-                </IconButton>
-                <IconButton className={classes.socialIcon}>
-                  <PinterestIcon className={classes.icon} />
                 </IconButton>
               </ListItem>
             </List>
@@ -221,13 +181,7 @@ const Footer = props => {
           <Grid item xs={12} md={10} className={classes.menuListContainer}>
             <Grid container spacing={0}>
               <Grid item className={classes.listItem}>
-                <LandingPages />
-              </Grid>
-              <Grid item className={classes.listItem}>
                 <SupportedPages />
-              </Grid>
-              <Grid item className={classes.listItem}>
-                <AccountPages />
               </Grid>
             </Grid>
           </Grid>

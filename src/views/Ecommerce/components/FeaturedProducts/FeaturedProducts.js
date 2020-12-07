@@ -36,7 +36,7 @@ const FeaturedProducts = props => {
             subtitleColor="textPrimary"
             ctaGroup={[
               <Button variant="contained" color="default" size="large">
-                Buy now
+                Contact
               </Button>,
             ]}
             align="left"

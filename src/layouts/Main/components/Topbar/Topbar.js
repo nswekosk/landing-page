@@ -133,9 +133,7 @@ const Topbar = props => {
     setOpenedPopoverId(null);
   };
 
-  const landings = pages.landings;
   const supportedPages = pages.pages;
-  const account = pages.account;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -168,76 +166,38 @@ const Topbar = props => {
     );
   };
 
-  const LandingPages = () => {
-    const { services, apps, web } = landings.children;
-    return (
-      <div className={classes.menu}>
-        <div className={classes.menuItem}>
-          <MenuGroup item={services} />
-          <MenuGroup item={apps} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={web} />
-        </div>
-      </div>
-    );
-  };
-
   const SupportedPages = () => {
     const {
-      career,
-      helpCenter,
-      company,
-      contact,
-      blog,
-      portfolio,
+      healthcare,
+      supplychain,
+      economics,
+      cloudcomputing,
+      genomics,
+      entertainment,
+      marketing
     } = supportedPages.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
-          <MenuGroup item={career} />
-          <MenuGroup item={helpCenter} />
+          <MenuGroup item={economics} />
+          <MenuGroup item={marketing} />
+          <MenuGroup item={supplychain} />
         </div>
         <div className={classes.menuItem}>
-          <MenuGroup item={company} />
-          <MenuGroup item={contact} />
+          <MenuGroup item={genomics} />
+          <MenuGroup item={cloudcomputing} />
         </div>
         <div className={classes.menuItem}>
-          <MenuGroup item={blog} />
-          <MenuGroup item={portfolio} />
-        </div>
-      </div>
-    );
-  };
-
-  const AccountPages = () => {
-    const { settings, signup, signin, password, error } = account.children;
-    return (
-      <div className={classes.menu}>
-        <div className={classes.menuItem}>
-          <MenuGroup item={settings} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={signup} />
-          <MenuGroup item={signin} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={password} />
-          <MenuGroup item={error} />
+          <MenuGroup item={healthcare} />
+          <MenuGroup item={entertainment} />
         </div>
       </div>
     );
   };
 
   const renderPages = id => {
-    if (id === 'landing-pages') {
-      return <LandingPages />;
-    }
     if (id === 'supported-pages') {
       return <SupportedPages />;
-    }
-    if (id === 'account') {
-      return <AccountPages />;
     }
   };
 
@@ -261,7 +221,19 @@ const Topbar = props => {
         <div className={classes.flexGrow} />
         <Hidden smDown>
           <List className={classes.navigationContainer}>
-            {[landings, supportedPages, account].map((page, i) => (
+            <ListItem className={classes.listItem}>
+              <Typography
+                variant="body1"
+                color="textSecondary"
+                className={classes.listItemText}
+                component="a"
+                target="blank"
+                href="https://thefront-styleguide.maccarianagency.com/"
+              >
+                News
+              </Typography>
+            </ListItem>
+            {[supportedPages].map((page, i) => (
               <div key={page.id}>
                 <ListItem
                   aria-describedby={page.id}
@@ -308,18 +280,6 @@ const Topbar = props => {
               </div>
             ))}
             <ListItem className={classes.listItem}>
-              <Typography
-                variant="body1"
-                color="textSecondary"
-                className={classes.listItemText}
-                component="a"
-                target="blank"
-                href="https://thefront-styleguide.maccarianagency.com/"
-              >
-                Documentation
-              </Typography>
-            </ListItem>
-            <ListItem className={classes.listItem}>
               <Button
                 size="large"
                 variant="contained"
@@ -329,7 +289,7 @@ const Topbar = props => {
                 href="https://material-ui.com/store/items/the-front-landing-page/"
                 className={classes.listItemButton}
               >
-                Buy Now
+                Contact
               </Button>
             </ListItem>
           </List>

@@ -20,9 +20,9 @@ const Hero = props => {
       <SectionHeader
         title={
           <>
-            A modern design system
+            An all-in optimist
             <br />
-            for your new
+            with experience in
             <br />
             <TypedText
               component="span"
@@ -31,13 +31,15 @@ const Hero = props => {
               className={classes.typed}
               typedProps={{
                 strings: [
-                  'e-commerce',
-                  'expo',
-                  'startup',
-                  'online course',
-                  'coworking space',
-                  'job listing',
-                  'and many more...',
+                  'engineering',
+                  'entrepreneurship',
+                  'genomics',
+                  'marketing',
+                  'healthcare',
+                  'economics',
+                  'cloud computing',
+                  'supply chain',
+                  'entertainment'
                 ],
                 typeSpeed: 50,
                 loop: true,
@@ -45,7 +47,7 @@ const Hero = props => {
             />
           </>
         }
-        subtitle="TheFront will make your product look modern and professional while saving you precious time."
+        subtitle="I’m a technology entrepreneur. I want to be known for making this world better."
         align="center"
         titleProps={{
           variant: 'h2',
@@ -64,18 +66,8 @@ const Hero = props => {
             target="blank"
             href="https://material-ui.com/store/items/the-front-landing-page/"
           >
-            Buy Now
-          </Button>,
-          <Button
-            size="large"
-            variant="outlined"
-            color="primary"
-            component="a"
-            target="blank"
-            href="https://thefront-styleguide.maccarianagency.com/"
-          >
-            Documentation
-          </Button>,
+            Contact
+          </Button>
         ]}
         data-aos="fade-up"
         disableGutter

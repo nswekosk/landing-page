@@ -22,288 +22,81 @@ const Main = props => {
   });
 
   const pages = {
-    landings: {
-      title: 'Landings',
-      id: 'landing-pages',
-      children: {
-        services: {
-          groupTitle: 'Services',
-          pages: [
-            {
-              title: 'Coworking',
-              href: '/coworking',
-            },
-            {
-              title: 'Rental',
-              href: '/rental',
-            },
-            {
-              title: 'Job Listing',
-              href: '/job-listing',
-            },
-            {
-              title: 'E-Learning',
-              href: '/e-learning',
-            },
-            {
-              title: 'E-commerce',
-              href: '/e-commerce',
-            },
-            {
-              title: 'Expo',
-              href: '/expo',
-            },
-          ],
-        },
-        apps: {
-          groupTitle: 'Apps',
-          pages: [
-            {
-              title: 'Desktop App',
-              href: '/desktop-app',
-            },
-            {
-              title: 'Mobile App',
-              href: '/mobile-app',
-            },
-          ],
-        },
-        web: {
-          groupTitle: 'Web',
-          pages: [
-            {
-              title: 'Overview',
-              href: '/home',
-            },
-            {
-              title: 'Basic',
-              href: '/web-basic',
-            },
-            {
-              title: 'Service',
-              href: '/service',
-            },
-            {
-              title: 'Startup',
-              href: '/startup',
-            },
-            {
-              title: 'Enterprise',
-              href: '/enterprise',
-            },
-            {
-              title: 'Cloud Hosting',
-              href: '/cloud-hosting',
-            },
-            {
-              title: 'Agency',
-              href: '/agency',
-            },
-            {
-              title: 'Design Company',
-              href: '/design-company',
-            },
-            {
-              title: 'Logistics',
-              href: '/logistics',
-            },
-          ],
-        },
-      },
-    },
     pages: {
-      title: 'Pages',
+      title: 'Projects',
       id: 'supported-pages',
       children: {
-        career: {
-          groupTitle: 'Career',
+        healthcare: {
+          groupTitle: 'Healthcare',
           pages: [
             {
-              title: 'Lising',
-              href: '/career-listing',
-            },
-            {
-              title: 'Lising Minimal',
+              title: 'Infection Prevention',
               href: '/career-listing-minimal',
             },
             {
-              title: 'Opening',
-              href: '/career-opening',
-            },
+              title: 'Doctorate Candidate',
+              href: '/career-listing',
+            }
           ],
         },
-        helpCenter: {
-          groupTitle: 'Help center',
+        supplychain: {
+          groupTitle: 'Supply Chain',
           pages: [
             {
-              title: 'Overview',
-              href: '/help-center',
-            },
-            {
-              title: 'Article',
-              href: '/help-center-article',
-            },
+              title: 'Infoplus Commerce',
+              href: '/career-listing',
+            }
           ],
         },
-        company: {
-          groupTitle: 'Company',
+        economics: {
+          groupTitle: 'Economics',
           pages: [
             {
-              title: 'About',
-              href: '/about',
-            },
-            {
-              title: 'About (Cover)',
-              href: '/about-side-cover',
-            },
-            {
-              title: 'Pricing',
-              href: '/pricing',
-            },
-            {
-              title: 'Terms',
-              href: '/company-terms',
-            },
+              title: 'Federal Reserve Economic Dataset',
+              href: '/career-listing',
+            }
           ],
         },
-        contact: {
-          groupTitle: 'Contact',
+        cloudcomputing: {
+          groupTitle: 'Cloud Computing',
           pages: [
             {
-              title: 'Reach View',
-              href: '/contact-page',
-            },
-            {
-              title: 'Sidebar Map',
-              href: '/contact-sidebar-map',
-            },
-            {
-              title: 'Cover',
-              href: '/contact-page-cover',
-            },
+              title: 'CenturyLink Status',
+              href: '/career-listing',
+            }
           ],
         },
-        blog: {
-          groupTitle: 'Blog',
+        genomics: {
+          groupTitle: 'Genomics',
           pages: [
             {
-              title: 'Newsroom',
-              href: '/blog-newsroom',
+              title: 'Pedigree Imputation',
+              href: '/career-listing',
             },
             {
-              title: 'Reach View',
-              href: '/blog-reach-view',
-            },
-            {
-              title: 'Search',
-              href: '/blog-search',
-            },
-            {
-              title: 'Article',
-              href: '/blog-article',
-            },
+              title: 'Breeding Diversity',
+              href: '/career-listing',
+            }
           ],
         },
-        portfolio: {
-          groupTitle: 'Portfolio',
+        entertainment: {
+          groupTitle: 'Entertainment',
           pages: [
             {
-              title: 'Basic',
-              href: '/portfolio-page',
-            },
-            {
-              title: 'Masonry',
-              href: '/portfolio-masonry',
-            },
-            {
-              title: 'Grid View',
-              href: '/portfolio-grid',
-            },
-            {
-              title: 'Parallax Effect',
-              href: '/agency',
-            },
+              title: 'Eventy',
+              href: '/career-listing',
+            }
           ],
         },
-      },
-    },
-    account: {
-      title: 'Account',
-      id: 'account',
-      children: {
-        settings: {
-          groupTitle: 'Settings',
+        marketing: {
+          groupTitle: 'Marketing',
           pages: [
             {
-              title: 'General',
-              href: '/account/general',
-            },
-            {
-              title: 'Security',
-              href: '/account/security',
-            },
-            {
-              title: 'Notifications',
-              href: '/account/notifications',
-            },
-            {
-              title: 'Billing',
-              href: '/account/billing',
-            },
+              title: 'Market Metrics',
+              href: '/career-listing',
+            }
           ],
-        },
-        signup: {
-          groupTitle: 'Sign up',
-          pages: [
-            {
-              title: 'Simple',
-              href: '/signup-simple',
-            },
-            {
-              title: 'Cover',
-              href: '/signup-cover',
-            },
-          ],
-        },
-        signin: {
-          groupTitle: 'Sign in',
-          pages: [
-            {
-              title: 'Simple',
-              href: '/signin-simple',
-            },
-            {
-              title: 'Cover',
-              href: '/signin-cover',
-            },
-          ],
-        },
-        password: {
-          groupTitle: 'Password reset',
-          pages: [
-            {
-              title: 'Simple',
-              href: '/password-reset-simple',
-            },
-            {
-              title: 'Cover',
-              href: '/password-reset-cover',
-            },
-          ],
-        },
-        error: {
-          groupTitle: 'Error',
-          pages: [
-            {
-              title: 'Simple',
-              href: '/not-found',
-            },
-            {
-              title: 'Cover',
-              href: '/not-found-cover',
-            },
-          ],
-        },
+        }
       },
     },
   };
