@@ -40,7 +40,7 @@ const Topbar = props => {
   return (
     <AppBar {...rest} className={clsx(classes.root, className)}>
       <Toolbar className={classes.toolbar}>
-        <div className={classes.logoContainer}>
+        {/*<div className={classes.logoContainer}>
           <a href="/" title="thefront">
             <Image
               className={classes.logoImage}
@@ -49,7 +49,7 @@ const Topbar = props => {
               lazy={false}
             />
           </a>
-        </div>
+        </div>*/}
       </Toolbar>
     </AppBar>
   );

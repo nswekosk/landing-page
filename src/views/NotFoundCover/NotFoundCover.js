@@ -56,16 +56,16 @@ const NotFoundCover = () => {
         leftSide={
           <div className={classes.formContainer}>
             <SectionHeader
-              label="404"
+              label=""
               title="Uh oh."
               subtitle={
                 <span>
-                  There’s nothing here, but if you feel this is an error please{' '}
-                  <LearnMoreLink
+                  There’s nothing here
+                  {/*<LearnMoreLink
                     title="let us know"
                     href="#"
                     typographyProps={{ variant: 'h6' }}
-                  />
+                  />*/}
                 </span>
               }
               titleProps={{
@@ -83,7 +83,7 @@ const NotFoundCover = () => {
                   color="primary"
                   onClick={handleClick}
                 >
-                  Go Back
+                  Go Home
                 </Button>,
               ]}
               disableGutter

@@ -64,7 +64,7 @@ const Hero = props => {
             color="primary"
             component="a"
             target="blank"
-            href="mailto:nick.swekosky@gmail.com"
+            href="https://67am1ougy39.typeform.com/to/fZNzUVhJ"
           >
             Get In Touch
           </Button>
