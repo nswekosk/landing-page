@@ -240,7 +240,7 @@ const Topbar = props => {
       className={clsx(classes.root, className)}
     >
       <Toolbar disableGutters className={classes.toolbar}>
-        <div className={classes.logoContainer}>
+        {/*<div className={classes.logoContainer}>
           <a href="/" title="thefront">
             <Image
               className={classes.logoImage}
@@ -249,11 +249,11 @@ const Topbar = props => {
               lazy={false}
             />
           </a>
-        </div>
+  </div>*/}
         <div className={classes.flexGrow} />
         <Hidden smDown>
           <List className={classes.navigationContainer}>
-            <ListItem className={classes.listItem}>
+            {/*<ListItem className={classes.listItem}>
               <Typography
                 variant="body1"
                 color="textSecondary"
@@ -265,7 +265,7 @@ const Topbar = props => {
                 News
               </Typography>
             </ListItem>
-            {[education, engineering, entrepreneurship].map((page, i) => (
+            [education, engineering, entrepreneurship].map((page, i) => (
               <div key={page.id}>
                 <ListItem
                   aria-describedby={page.id}
@@ -310,7 +310,7 @@ const Topbar = props => {
                   <div>{renderPages(page.id)}</div>
                 </Popover>
               </div>
-            ))}
+            ))*/}
             <ListItem className={classes.listItem}>
               <Button
                 size="large"

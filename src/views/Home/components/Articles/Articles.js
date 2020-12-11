@@ -55,8 +55,8 @@ const Articles = props => {
   return (
     <div className={clsx(classes.root, className)} {...rest}>
       <SectionHeader
-        label="Read our articles"
-        title="Marketing strategies"
+        label=""
+        title="As featured in..."
         align="left"
       />
       <div

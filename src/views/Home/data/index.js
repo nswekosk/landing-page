@@ -157,38 +157,38 @@ export const articles = [
 export const folio = [
   {
     cover: 'https://marketmetrics.io/images/illustrations/reports.gif',
-    title: 'Market Metrics',
+    title: 'Market Metrics - CEO, builder, and Founder',
     subtitle:
-      'Enable agencies to reduce the time spent doing non-billable work.',
-    h: 500,
-  },
-  {
-    cover: '/images/photos/blog/fred.png',
-    title: 'Federal Reserve Economic Dataset Client',
-    subtitle:
-      'A Golang client to provide access to the Federal Resever Economic Dataset',
-    h: 500,
+      'Software to Enable agencies to reduce the time spent doing non-billable work.',
+    h: 600,
   },
   {
     cover: '/images/photos/blog/Screenshot2.png',
-    title: 'Eventy',
+    title: 'Eventy - CEO, builder, and Founder',
     subtitle:
-      'A multi-sided marketplace that connects people through live experiences.',
-    h: 500,
+      'A multi-sided marketplace that enables people to use software to connect through live experiences.',
+    h: 1200,
   },
   {
     cover: '/images/photos/blog/galaxy.png',
-    title: 'Pedigree Imputation',
+    title: 'Pedigree Imputation - Data Engineer',
     subtitle:
       'Use pedigree and ancestral genotype observations to infer the likely genotypes of maize population.',
-    h: 800,
+    h: 900,
+  },
+  {
+    cover: '/images/photos/blog/fred-alt.png',
+    title: 'Federal Reserve Economic Dataset Client - Developer & Maintainer',
+    subtitle:
+      'Open source software that enable developers to the programming language GoLang to interact with the Federal Resever Economic Dataset.',
+    h: 500,
   },
   {
     cover: '/images/photos/blog/ctl-status.png',
-    title: 'CenturyLink Status',
+    title: 'CenturyLink Status - Developer',
     subtitle:
       'A web app and Google Chrome extension that defines the status of every CenturyLink cloud-based infrastructure service in every global location.',
-    h: 550,
+    h: 500,
   }
 ];
 

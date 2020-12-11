@@ -111,7 +111,7 @@ const About = props => {
                 <ListItem disableGutters>
                   <ListItemText
                     primary="Francis Schmitz"
-                    secondary="Nick’s Mentor and Sr. Applications Developer @ Simplex Investments"
+                    secondary="One of Nick’s Mentors and a Sr. Applications Developer @ Simplex Investments"
                   />
                 </ListItem>
               </List>

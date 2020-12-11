@@ -17,12 +17,12 @@ const Home = () => {
       <Section>
         <Hero />
       </Section>
+      <SectionAlternate>
+        <Articles data={articles} />
+      </SectionAlternate>
       <About />
       <SectionAlternate>
         <Main data={folio} />
-      </SectionAlternate>
-      <SectionAlternate>
-        <Articles data={articles} />
       </SectionAlternate>
     </div>
   );

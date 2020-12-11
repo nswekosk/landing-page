@@ -75,13 +75,13 @@ const Main = props => {
   const { data, className, ...rest } = props;
   const classes = useStyles();
 
-  const leftGridData = data.slice(0, 4);
-  const centerGridData = data.slice(4, 8);
-  const rightGridData = data.slice(8);
-  const wrapper = [leftGridData, centerGridData, rightGridData];
+  const wrapper = [data.slice(0)];
 
   return (
     <div className={clsx(classes.root, className)} {...rest}>
+      <Typography variant="h3" align="center" gutterBottom color="textPrimary">
+        Technology projects I've been a part of
+      </Typography>
       <div className={classes.grid}>
         {wrapper.map((column, i) => (
           <div className={classes.gridWrapper} key={i}>

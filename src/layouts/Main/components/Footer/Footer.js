@@ -180,7 +180,7 @@ const Footer = props => {
         <Grid container spacing={4}>
           <Grid item xs={12} md={2}>
             <List disablePadding>
-              <ListItem disableGutters className={classes.logoContainerItem}>
+              {/*<ListItem disableGutters className={classes.logoContainerItem}>
                 <div className={classes.logoContainer}>
                   <a href="/" title="thefront">
                     <Image
@@ -191,7 +191,7 @@ const Footer = props => {
                     />
                   </a>
                 </div>
-              </ListItem>
+  </ListItem>*/}
               <ListItem disableGutters>
                 <IconButton className={classes.socialIcon} href="https://www.linkedin.com/in/%F0%9F%93%88-nick-swekosky-4090155b/">
                   <LinkedInIcon className={classes.icon} />
@@ -204,7 +204,7 @@ const Footer = props => {
           </Grid>
           <Grid item xs={12} md={10} className={classes.menuListContainer}>
             <Grid container spacing={0}>
-              <Grid item className={classes.listItem}>
+             {/*} <Grid item className={classes.listItem}>
                 <EducationPages />
               </Grid>
               <Grid item className={classes.listItem}>
@@ -212,7 +212,7 @@ const Footer = props => {
               </Grid>
               <Grid item className={classes.listItem}>
                 <EntrepreneurshipPages />
-              </Grid>
+              </Grid>*/}
             </Grid>
           </Grid>
         </Grid>
