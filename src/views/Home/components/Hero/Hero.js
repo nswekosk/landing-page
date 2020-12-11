@@ -64,7 +64,7 @@ const Hero = props => {
             color="primary"
             component="a"
             target="blank"
-            href="https://material-ui.com/store/items/the-front-landing-page/"
+            href="mailto:nick.swekosky@gmail.com"
           >
             Contact
           </Button>
