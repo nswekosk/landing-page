@@ -66,7 +66,7 @@ const Hero = props => {
             target="blank"
             href="mailto:nick.swekosky@gmail.com"
           >
-            Contact
+            Get In Touch
           </Button>
         ]}
         data-aos="fade-up"

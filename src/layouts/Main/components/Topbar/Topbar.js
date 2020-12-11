@@ -321,12 +321,12 @@ const Topbar = props => {
                 href="mailto:nick.swekosky@gmail.com"
                 className={classes.listItemButton}
               >
-                Contact
+                Get In Touch
               </Button>
             </ListItem>
           </List>
         </Hidden>
-        <Hidden mdUp>
+        {/*<Hidden mdUp>
           <IconButton
             className={classes.iconButton}
             onClick={onSidebarOpen}
@@ -334,7 +334,7 @@ const Topbar = props => {
           >
             <MenuIcon />
           </IconButton>
-        </Hidden>
+        </Hidden>*/}
       </Toolbar>
     </AppBar>
   );
