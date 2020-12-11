@@ -1,9 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
 import { About, Articles, Main, Hero } from './components';
-import { folio, articles } from './data';
+import { articles } from './data';
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -22,7 +21,7 @@ const Home = () => {
       </SectionAlternate>
       <About />
       <SectionAlternate>
-        <Main data={folio} />
+        <Main />
       </SectionAlternate>
     </div>
   );
