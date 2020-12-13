@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Section, SectionAlternate } from 'components/organisms';
-import { About, Articles, Main, Hero } from './components';
+import { About, Articles, Main, Hero, Signup } from './components';
 import { articles } from './data';
 
 const useStyles = makeStyles(theme => ({
@@ -21,7 +21,7 @@ const Home = () => {
       </SectionAlternate>
       <About />
       <SectionAlternate>
-        <Main />
+        <Signup />
       </SectionAlternate>
     </div>
   );

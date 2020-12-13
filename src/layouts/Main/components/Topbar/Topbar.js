@@ -253,6 +253,42 @@ const Topbar = props => {
         <div className={classes.flexGrow} />
         <Hidden smDown>
           <List className={classes.navigationContainer}>
+          <ListItem className={classes.listItem}>
+              <Typography
+                variant="body1"
+                color="textSecondary"
+                className={classes.listItemText}
+                component="a"
+                target="blank"
+                href="/home"
+              >
+                Home
+              </Typography>
+            </ListItem>
+            <ListItem className={classes.listItem}>
+              <Typography
+                variant="body1"
+                color="textSecondary"
+                className={classes.listItemText}
+                component="a"
+                target="blank"
+                href="/resume"
+              >
+                Resume
+              </Typography>
+            </ListItem>
+            <ListItem className={classes.listItem}>
+              <Typography
+                variant="body1"
+                color="textSecondary"
+                className={classes.listItemText}
+                component="a"
+                target="blank"
+                href="https://nickswekosky.substack.com/"
+              >
+                Blog
+              </Typography>
+            </ListItem>
             {/*<ListItem className={classes.listItem}>
               <Typography
                 variant="body1"

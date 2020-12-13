@@ -1,4 +1,5 @@
 export { default as Home } from './Home';
+export { default as Resume } from './Resume';
 export { default as Agency } from './Agency';
 export { default as CareerListing } from './CareerListing';
 export { default as CareerListingMinimal } from './CareerListingMinimal';

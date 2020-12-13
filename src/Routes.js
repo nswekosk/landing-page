@@ -6,6 +6,7 @@ import { Main as MainLayout, Minimal as MinimalLayout } from './layouts';
 
 import {
   Home as HomeView,
+  Resume as ResumeView,
   Agency as AgencyView,
   CareerListing as CareerListingView,
   CareerListingMinimal as CareerListingMinimalView,
@@ -61,6 +62,12 @@ const Routes = () => {
         exact
         layout={MainLayout}
         path="/home"
+      />
+      <RouteWithLayout
+        component={ResumeView}
+        exact
+        layout={MainLayout}
+        path="/resume"
       />
       <RouteWithLayout
         component={NotFoundView}
