@@ -11,6 +11,7 @@ import {
 } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 import { Image } from 'components/atoms';
 
@@ -198,6 +199,9 @@ const Footer = props => {
                 </IconButton>
                 <IconButton className={classes.socialIcon} href="https://twitter.com/NickSwekosky">
                   <TwitterIcon className={classes.icon} />
+                </IconButton>
+                <IconButton className={classes.socialIcon} href="https://github.com/nswekosk/">
+                  <GitHubIcon className={classes.icon} />
                 </IconButton>
               </ListItem>
             </List>
