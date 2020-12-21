@@ -277,18 +277,6 @@ const Topbar = props => {
                 Resume
               </Typography>
             </ListItem>
-            <ListItem className={classes.listItem}>
-              <Typography
-                variant="body1"
-                color="textSecondary"
-                className={classes.listItemText}
-                component="a"
-                target="blank"
-                href="https://nickswekosky.substack.com/"
-              >
-                Blog
-              </Typography>
-            </ListItem>
             {/*<ListItem className={classes.listItem}>
               <Typography
                 variant="body1"
