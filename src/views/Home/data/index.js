@@ -64,6 +64,16 @@ export const account = [
 export const articles = [
   {
     cover: {
+      src: 'https://i0.wp.com/www.runthemoney.com/wp-content/uploads/2020/12/pexels-photo-3183197.jpeg?w=1880&ssl=1',
+      srcSet: 'https://i0.wp.com/www.runthemoney.com/wp-content/uploads/2020/12/pexels-photo-3183197.jpeg?w=1880&ssl=1 2x',
+    },
+    title: 'Connect: How To Bond With Your Target Fans This Year',
+    author: 'By Dave Domzalski',
+    date: 'December 22nd, 2020',
+    url: 'https://www.runthemoney.com/connect-how-to-bond-with-your-target-fans-this-year/'
+  },
+  {
+    cover: {
       src: 'https://ppcprotect.com/static/67cbd04cb563d03e3b395a57f7ed7653/digital-marketing-tips-cover.jpg',
       srcSet: 'https://ppcprotect.com/static/67cbd04cb563d03e3b395a57f7ed7653/digital-marketing-tips-cover.jpg 2x',
     },

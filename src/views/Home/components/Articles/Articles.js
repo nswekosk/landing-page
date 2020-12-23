@@ -9,6 +9,7 @@ import {
   CardMedia,
   CardContent,
   Typography,
+  CardActionArea
 } from '@material-ui/core';
 import { Image } from 'components/atoms';
 import { SectionHeader } from 'components/molecules';
@@ -73,26 +74,30 @@ const Articles = props => {
               key={index}
             >
               <Card className={classes.card}>
-                <CardMedia className={classes.cardMedia}>
-                  <Image
-                    {...item.cover}
-                    lazyProps={{ width: '100%', height: '100%' }}
-                  />
-                </CardMedia>
-                <CardContent>
-                  <Typography
-                    variant="body1"
-                    color="primary"
-                    component="p"
-                    className={classes.articleDate}
-                  >
-                    <i>{item.author}</i>&nbsp;|&nbsp;
-                    <i>{item.date}</i>
-                  </Typography>
-                  <Typography variant="h6" color="textPrimary" component="p">
-                    {item.title}
-                  </Typography>
-                </CardContent>
+              <CardActionArea>
+                  <a target="_blank" href={item.url}>
+                    <CardMedia className={classes.cardMedia}>
+                      <Image
+                        {...item.cover}
+                        lazyProps={{ width: '100%', height: '100%' }}
+                      />
+                    </CardMedia>
+                    <CardContent>
+                      <Typography
+                        variant="body1"
+                        color="primary"
+                        component="p"
+                        className={classes.articleDate}
+                      >
+                        <i>{item.author}</i>&nbsp;|&nbsp;
+                        <i>{item.date}</i>
+                      </Typography>
+                      <Typography variant="h6" color="textPrimary" component="p">
+                        {item.title}
+                      </Typography>
+                    </CardContent>
+                  </a>
+                </CardActionArea>
               </Card>
             </div>
           ))}
