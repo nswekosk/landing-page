@@ -135,7 +135,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Onboarded 58 users and generated $727.49 in total revenue to date while moderating a Slack community & Mailchimp newsletter.
+                Managed onboarding, retention, and revenue growth while moderating a Slack community & Mailchimp newsletter.
               </Typography>
             </li>
             <li>
@@ -206,6 +206,11 @@ const Main = props => {
               <Typography variant="h6" gutterBottom color="textPrimary">
                 Completed code review for data scientist’s tools implemented in R and Python.
               </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Initialized documentation to streamline the onboarding process for the engineering team.
+              </Typography>
             </li>           
           </ul>
         </Grid>
@@ -265,11 +270,6 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Healthcare Informatics
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
                 Collaborated with the clinical and informatics team to build applications that provide clinical decision support for physicians and nurses leveraging Java and SQL.
               </Typography>
             </li>
@@ -280,11 +280,6 @@ const Main = props => {
             <b><a target="_blank" href="https://www.infopluscommerce.com/" style={{textDecoration: "underline", color: "black"}}>Infoplus Commerce</a>, Junior Software Engineer</b> [December 2014 - May 2015]
           </Typography>
           <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Business Logic Implementation
-              </Typography>
-            </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
                 Implemented supply chain management business logic in Java, SQL, Swift with a MySQL & Informix database management system.
@@ -430,7 +425,7 @@ const Main = props => {
             </li>         
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                <b>Doctorate in Physical Therapy</b> [2012 - 2014, Did not comlpete due to pursuing my passion for computer science]
+                <b>Doctorate in Physical Therapy</b> [2012 - 2014]; did not complete due to pursuing my passion for computer science.
               </Typography>
             </li>
             <li>
