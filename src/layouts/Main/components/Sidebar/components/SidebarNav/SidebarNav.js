@@ -158,41 +158,25 @@ const SidebarNav = props => {
         </ListItemIcon>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom>
-          Landings
+        <Typography
+          variant="body1"
+          color="textSecondary"
+          className={classes.listItemText}
+          component="a"
+          href="/"
+        >
+          Home
         </Typography>
-        <LandingPages />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Divider className={classes.divider} />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom>
-          Pages
-        </Typography>
-        <SupportedPages />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Divider className={classes.divider} />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Typography variant="h6" color="textPrimary" gutterBottom>
-          Account
-        </Typography>
-        <AccountPages />
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Divider className={classes.divider} />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Typography
-          variant="h6"
-          color="primary"
+          variant="body1"
+          color="textSecondary"
+          className={classes.listItemText}
           component="a"
-          target="blank"
-          href="https://thefront-styleguide.maccarianagency.com/"
+          href="/resume"
         >
-          Documentation
+          Resume
         </Typography>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -200,12 +184,12 @@ const SidebarNav = props => {
           size="large"
           variant="contained"
           color="primary"
-          fullWidth
           component="a"
           target="blank"
-          href="https://material-ui.com/store/items/the-front-landing-page/"
+          href="https://67am1ougy39.typeform.com/to/fZNzUVhJ"
+          className={classes.listItemButton}
         >
-          Contact
+          Get In Touch
         </Button>
       </ListItem>
     </List>

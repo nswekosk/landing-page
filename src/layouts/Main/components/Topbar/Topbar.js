@@ -253,7 +253,7 @@ const Topbar = props => {
         <div className={classes.flexGrow} />
         <Hidden smDown>
           <List className={classes.navigationContainer}>
-          <ListItem className={classes.listItem}>
+            <ListItem className={classes.listItem}>
               <Typography
                 variant="body1"
                 color="textSecondary"
@@ -347,7 +347,7 @@ const Topbar = props => {
             </ListItem>
           </List>
         </Hidden>
-        {/*<Hidden mdUp>
+        <Hidden mdUp>
           <IconButton
             className={classes.iconButton}
             onClick={onSidebarOpen}
@@ -355,7 +355,7 @@ const Topbar = props => {
           >
             <MenuIcon />
           </IconButton>
-        </Hidden>*/}
+        </Hidden>
       </Toolbar>
     </AppBar>
   );
