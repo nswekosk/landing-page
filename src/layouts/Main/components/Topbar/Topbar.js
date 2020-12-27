@@ -259,8 +259,7 @@ const Topbar = props => {
                 color="textSecondary"
                 className={classes.listItemText}
                 component="a"
-                target="blank"
-                href="/home"
+                href="/"
               >
                 Home
               </Typography>
@@ -271,7 +270,6 @@ const Topbar = props => {
                 color="textSecondary"
                 className={classes.listItemText}
                 component="a"
-                target="blank"
                 href="/resume"
               >
                 Resume
@@ -341,7 +339,6 @@ const Topbar = props => {
                 variant="contained"
                 color="primary"
                 component="a"
-                target="blank"
                 href="https://67am1ougy39.typeform.com/to/fZNzUVhJ"
                 className={classes.listItemButton}
               >

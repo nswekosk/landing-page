@@ -56,13 +56,6 @@ import {
 const Routes = () => {
   return (
     <Switch>
-      <Redirect exact from="/" to="/home" />
-      <RouteWithLayout
-        component={HomeView}
-        exact
-        layout={MainLayout}
-        path="/home"
-      />
       <RouteWithLayout
         component={ResumeView}
         exact
@@ -80,6 +73,12 @@ const Routes = () => {
         exact
         layout={MinimalLayout}
         path="/not-found-cover"
+      />
+      <RouteWithLayout
+        component={HomeView}
+        exact
+        layout={MainLayout}
+        path="/"
       />
       <Redirect to="/not-found-cover" status="404" />
     </Switch>

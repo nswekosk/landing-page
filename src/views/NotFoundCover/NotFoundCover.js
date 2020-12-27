@@ -44,9 +44,10 @@ const NotFoundCover = () => {
 
   const handleClick = () => {
     if (router && typeof router.back === 'function') {
+      
       router.back();
     } else {
-      window.history.back();
+      window.location =  "/"
     }
   };
 
