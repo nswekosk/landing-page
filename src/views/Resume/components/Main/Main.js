@@ -302,7 +302,7 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Conducted market research on 895 crypto projects to define their function, project-type classification, and blockchain ecosystem.
+              Conducted market research on 928 crypto projects to define their function, project-type classification, and blockchain ecosystem.
               </Typography>
             </li>
             <li>
