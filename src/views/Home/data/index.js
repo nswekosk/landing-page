@@ -64,6 +64,16 @@ export const account = [
 export const articles = [
   {
     cover: {
+      src: 'https://enterpriseleague.com/blog/wp-content/uploads/b2b-marketing-kpi.png',
+      srcSet: 'https://enterpriseleague.com/blog/wp-content/uploads/b2b-marketing-kpi.png 2x',
+    },
+    title: '12 Critical B2B Marketing KPIs To Keep Track Of',
+    author: 'By Enterprise League',
+    date: 'December 31, 2020',
+    url: 'https://enterpriseleague.com/blog/b2b-marketing-kpis/'
+  },
+  {
+    cover: {
       src: 'https://i0.wp.com/www.runthemoney.com/wp-content/uploads/2020/12/pexels-photo-3183197.jpeg?w=1880&ssl=1',
       srcSet: 'https://i0.wp.com/www.runthemoney.com/wp-content/uploads/2020/12/pexels-photo-3183197.jpeg?w=1880&ssl=1 2x',
     },

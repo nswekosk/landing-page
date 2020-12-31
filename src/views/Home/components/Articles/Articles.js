@@ -75,7 +75,7 @@ const Articles = props => {
             >
               <Card className={classes.card}>
               <CardActionArea>
-                  <a target="_blank" href={item.url}>
+                  <a target="_blank" href={`${item.url}?utm_source=NickSwekosky.com`}>
                     <CardMedia className={classes.cardMedia}>
                       <Image
                         {...item.cover}
