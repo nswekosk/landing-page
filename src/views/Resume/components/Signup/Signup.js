@@ -33,13 +33,11 @@ const useStyles = makeStyles(theme => ({
 export default props => {
   return (
     <Grid container spacing={4}>
-        <Grid item align="center" xs={12}>
-            <div>
-                <div dangerouslySetInnerHTML={{
-                    __html: `<iframe src="https://nickswekosky.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>`
-                }} />
-            </div>
-        </Grid>
+      <Grid item align="center" xs={12}>
+        <div dangerouslySetInnerHTML={{
+            __html: `<iframe src="https://nickswekosky.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>`
+        }} />
+      </Grid>
     </Grid>
   );
 };

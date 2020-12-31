@@ -47,7 +47,7 @@ const Hero = props => {
             />
           </>
         }
-        subtitle="I’m a technology entrepreneur. I want to be known for making this world better."
+        subtitle=""
         align="center"
         titleProps={{
           variant: 'h2',
