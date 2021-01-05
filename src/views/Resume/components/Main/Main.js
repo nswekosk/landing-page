@@ -302,17 +302,17 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Conducted market research on 969 crypto projects to define their function, project-type classification, and blockchain ecosystem.
+              Conducted market research on 4,077 crypto projects to define their function, project-type classification, and blockchain ecosystem.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Build and maintain a query tool defined as ‘Google Search for Crypto’ to discover any crypto project given some text input.
+                Build and maintain a query tool defined as ‘Google Search for Cryptocurrency/Blockchain’ to discover any crypto project given some text input.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                <a target="_blank" href="https://cryptodatabase.info/" style={{textDecoration: "underline"}}>Application Link</a>
+                <a target="_blank" href="https://cryptosearch.info/" style={{textDecoration: "underline"}}>Application Link</a>
               </Typography>
             </li>
             <li>
@@ -391,7 +391,7 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>            
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 74.1% Complete (Last Updated December 30th)]
+                Duration: [Began December 7th, 2020; 78% Complete]
               </Typography>
             </li>
           </ul>
