@@ -105,7 +105,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Activities
+                Fellowships & Activities
               </Typography>
             </li>
           </ul>
@@ -439,7 +439,7 @@ const Main = props => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Activities</b>
+            <b>Fellowships & Activities</b>
           </Typography>
           <Divider />
         </Grid>
