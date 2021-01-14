@@ -113,19 +113,23 @@ const Main = props => {
       </Grid>
       <Grid container spacing={4}>
         <Grid item xs={12}>
-          <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Education</b>
-          </Typography>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
+            <b>Saint Louis University</b>
           </Typography>
-          <ul style={{marginLeft: "2em"}}>            
+          <ul style={{marginLeft: "2em"}}>   
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 90% Complete]
+                Duration: [August 2008 – May 2014]
+              </Typography>
+            </li>         
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                <b>Doctorate in Physical Therapy</b> [2012 - 2014]; did not complete due to pursuing my passion for computer science.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                <b>Bachelor’s Degree</b>, Exercise Science [2008-2012]
               </Typography>
             </li>
           </ul>
@@ -148,23 +152,19 @@ const Main = props => {
           </ul>
         </Grid>
         <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Saint Louis University</b>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Education</b>
           </Typography>
-          <ul style={{marginLeft: "2em"}}>   
+          <Divider />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>            
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [August 2008 – May 2014]
-              </Typography>
-            </li>         
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <b>Doctorate in Physical Therapy</b> [2012 - 2014]; did not complete due to pursuing my passion for computer science.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <b>Bachelor’s Degree</b>, Exercise Science [2008-2012]
+                Duration: [Began December 7th, 2020; 90% Complete]
               </Typography>
             </li>
           </ul>
