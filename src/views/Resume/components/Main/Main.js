@@ -85,12 +85,12 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Work Experience
+                Education
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Open-Source Projects
+                Work Experience
               </Typography>
             </li>
             <li>
@@ -100,12 +100,71 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Education
+                Open-Source & Side Projects
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
                 Fellowships & Activities
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Education</b>
+          </Typography>
+          <Divider />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>            
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Duration: [Began December 7th, 2020; 90% Complete]
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>MIT OpenCourseWare, Stanford Engineering Everywhere, and Harvard Extension School </b>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>            
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Duration: [January 2014 – June 2015]
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Audited open source mathematics and computer science courses under the tutelage of <a style={{textDecoration: "underline"}} target="blank" href="https://www.linkedin.com/in/francis-s-806a6712">Francis Schmitz</a> and mentorship of <a style={{textDecoration: "underline"}} target="blank" href="https://cs.slu.edu/~scannell/">Dr. Kevin Scannell</a>
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Saint Louis University</b>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>   
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Duration: [August 2008 – May 2014]
+              </Typography>
+            </li>         
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                <b>Doctorate in Physical Therapy</b> [2012 - 2014]; did not complete due to pursuing my passion for computer science.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                <b>Bachelor’s Degree</b>, Exercise Science [2008-2012]
               </Typography>
             </li>
           </ul>
@@ -140,7 +199,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Served as a source for 8 journalists seeking consultation for article topics in marketing.
+              Served as a source for 9 journalists seeking consultation for article topics in marketing.
               </Typography>
             </li>
             <li>
@@ -291,63 +350,6 @@ const Main = props => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Open-Source Projects</b>
-          </Typography>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Crypto Search</b> [December 2020 - Present]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Conducted market research on 4,077 crypto projects to define their function, project-type classification, and blockchain ecosystem.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Build and maintain a query tool defined as ‘Google Search for Cryptocurrency/Blockchain’ to discover any crypto project given some text input.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <a target="_blank" href="https://cryptosearch.info/" style={{textDecoration: "underline"}}>Application Link</a>
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <a target="_blank" href="https://github.com/nswekosk/crypto-database" style={{textDecoration: "underline"}}>Code Repository Link</a>
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Federal Reserve Economic Data Go Toolkit</b> [January 2017 - Present]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Create and maintain a toolkit that enables developers and data scientists to use the programming language Go to work with the data provided by the Federal Reserve Economic Dataset.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <a target="_blank" href="https://fred.stlouisfed.org/docs/api/fred" style={{textDecoration: "underline"}}>Application Link</a>
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <a target="_blank" href="https://github.com/nswekosk/fred_go_toolkit" style={{textDecoration: "underline"}}>Code Repository Link</a>
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-      </Grid>
-      <Grid container spacing={4}>
-        <Grid item xs={12}>
-          <Typography variant="h3" gutterBottom color="textPrimary">
             <b>Research Experience</b>
           </Typography>
           <Divider />
@@ -380,57 +382,50 @@ const Main = props => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Education</b>
+            <b>Open-Source & Side Projects</b>
           </Typography>
           <Divider />
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
+            <b>Crypto Search</b> [December 2020 - Present]
           </Typography>
-          <ul style={{marginLeft: "2em"}}>            
+          <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 90% Complete]
+              Conducted market research on 4,077 crypto projects to define their function, project-type classification, and blockchain ecosystem.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Build and maintain a query tool defined as ‘Google Search for Cryptocurrency/Blockchain’ to discover any crypto project given some text input.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                <a target="_blank" href="https://cryptosearch.info/" style={{textDecoration: "underline"}}>Application Link</a>
               </Typography>
             </li>
           </ul>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>MIT OpenCourseWare, Stanford Engineering Everywhere, and Harvard Extension School </b>
+            <b>Federal Reserve Economic Data Go Toolkit</b> [January 2017 - Present]
           </Typography>
-          <ul style={{marginLeft: "2em"}}>            
+          <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [January 2014 – June 2015]
+              Create and maintain a toolkit that enables developers and data scientists to use the programming language Go to work with the data provided by the Federal Reserve Economic Dataset.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Audited open source mathematics and computer science courses under the tutelage of <a style={{textDecoration: "underline"}} target="blank" href="https://www.linkedin.com/in/francis-s-806a6712">Francis Schmitz</a> and mentorship of <a style={{textDecoration: "underline"}} target="blank" href="https://cs.slu.edu/~scannell/">Dr. Kevin Scannell</a>
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Saint Louis University</b>
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>   
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [August 2008 – May 2014]
-              </Typography>
-            </li>         
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <b>Doctorate in Physical Therapy</b> [2012 - 2014]; did not complete due to pursuing my passion for computer science.
+                <a target="_blank" href="https://fred.stlouisfed.org/docs/api/fred" style={{textDecoration: "underline"}}>Application Link</a>
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                <b>Bachelor’s Degree</b>, Exercise Science [2008-2012]
+                <a target="_blank" href="https://github.com/nswekosk/fred_go_toolkit" style={{textDecoration: "underline"}}>Code Repository Link</a>
               </Typography>
             </li>
           </ul>
