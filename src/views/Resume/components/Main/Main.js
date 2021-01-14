@@ -105,7 +105,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Extracurricular Activities
+                Activities
               </Typography>
             </li>
           </ul>
@@ -391,7 +391,7 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>            
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 78% Complete]
+                Duration: [Began December 7th, 2020; 90% Complete]
               </Typography>
             </li>
           </ul>
@@ -439,9 +439,74 @@ const Main = props => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Extracurricular Activities</b>
+            <b>Activities</b>
           </Typography>
           <Divider />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>GitCoin KERNEL Fellowship</b> [January 2021 - Present]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Invited & accepted to complete the DeFi track of the KERNEL fellowship as designed by the <a target="_blank" style={{textDecoration: "underline", color: "black"}} href="https://defialliance.co/">DeFi Alliance</a> including topics on:
+              </Typography>
+              <ul style={{marginLeft: "3em"}}>
+                <li>
+                  The DeFi Landscape & Choosing an Idea 
+                    <ul style={{marginLeft: "4em"}}>
+                      <li>by Robert Leshner (Compound)</li>
+                    </ul>
+                </li>
+                <li>
+                  Forming a DeFi Company & Navigating the Regulatory Landscape 
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Marc Boiron (Manatt)</li>
+                  </ul>
+                </li>
+                <li>
+                  Market Making and Liquidity Provision in DeFi 
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Kanav Kariya (Jump Trading)</li>
+                  </ul>
+                </li>
+                <li>
+                  Token Economics, Distribution, & DAOs 
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Arjun Balaji (Paradigm)</li>
+                  </ul>
+                </li>
+                <li>
+                  Fundraising in DeFi & Decentralizing Over Time 
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Jake Chervisnky (Compound)</li>
+                  </ul>
+                </li>
+                <li>
+                  Smart Contracts: Auditing and Security / Parameterizing Risk in DeFi 
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Quantstamp Tarun Chitra (Gauntlet Network)</li>
+                  </ul>
+                </li>
+                <li>
+                  Defining Success in DeFi: Key Growth Metrics
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Jason Choi (Spartan)</li>
+                    <li>by Kevin Yedid-Botton (ParaFi)</li>
+                    <li>by Andrew Kang (Mechanism)</li>
+                    <li>by Michael Anderson (Framework)</li>
+                  </ul>
+                </li>
+                <li>
+                  Marketing, Growth, and Building in Public
+                  <ul style={{marginLeft: "4em"}}>
+                    <li>by Kain Warwick (Synthetix)</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
