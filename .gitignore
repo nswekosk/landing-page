@@ -28,7 +28,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-
+.eslintcache
 public/images
 src/assets/images/leaflet-assets
 styleguide

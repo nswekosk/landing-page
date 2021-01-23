@@ -8,7 +8,6 @@ export { default as CardJob } from './CardJob';
 export { default as CardJobMinimal } from './CardJobMinimal';
 export { default as CardJobTag } from './CardJobTag';
 export { default as CardJobCompany } from './CardJobCompany';
-export { default as Accordion } from './Accordion';
 export { default as HeroShaped } from './HeroShaped';
 export { default as CardProduct } from './CardProduct';
 export { default as Map } from './Map';

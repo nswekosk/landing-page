@@ -64,6 +64,26 @@ export const account = [
 export const articles = [
   {
     cover: {
+      src: 'https://www.creditcards.com/credit-card-news/wp-content/uploads/sites/4/how-us-president-affects-credit-cards.jpeg?crop=4:3&width=480',
+      srcSet: 'https://www.creditcards.com/credit-card-news/wp-content/uploads/sites/4/how-us-president-affects-credit-cards.jpeg?crop=4:3&width=480 2x',
+    },
+    title: 'How the U.S. president affects credit cards',
+    author: 'By Aaron Broverman',
+    date: 'January 20, 2021',
+    url: 'https://www.creditcards.com/credit-card-news/how-us-president-affects-credit-cards/'
+  },
+  {
+    cover: {
+      src: 'https://www.vizion.com/wp-content/uploads/2021/01/shutterstock_1849968436-636x337.jpg',
+      srcSet: 'https://www.vizion.com/wp-content/uploads/2021/01/shutterstock_1849968436-636x337.jpg 2x',
+    },
+    title: 'Tips for Digital Marketing Mastery in 2021—Marketers Weigh In',
+    author: 'By Kristien Matelski',
+    date: 'January 19, 2021',
+    url: 'https://www.vizion.com/blog/tips-for-digital-marketing-mastery-in-2021-marketers-weigh-in/'
+  },
+  {
+    cover: {
       src: 'https://enterpriseleague.com/blog/wp-content/uploads/b2b-marketing-kpi.png',
       srcSet: 'https://enterpriseleague.com/blog/wp-content/uploads/b2b-marketing-kpi.png 2x',
     },

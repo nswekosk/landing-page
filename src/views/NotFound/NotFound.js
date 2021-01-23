@@ -1,5 +1,4 @@
 import React from 'react';
-import { useRouter } from 'next/router'; // Delete this line if you are not using NextJS
 import { makeStyles } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
 import { LearnMoreLink } from 'components/atoms';
@@ -29,15 +28,10 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const NotFound = () => {
-  const router = useRouter();
   const classes = useStyles();
 
   const handleClick = () => {
-    if (router && typeof router.back === 'function') {
-      router.back();
-    } else {
-      window.history.back();
-    }
+    window.history.back();
   };
 
   return (

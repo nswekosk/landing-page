@@ -135,6 +135,12 @@ const Main = props => {
           </ul>
         </Grid>
         <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Education</b>
+          </Typography>
+          <Divider />
+        </Grid>
+        <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
             <b>MIT OpenCourseWare, Stanford Engineering Everywhere, and Harvard Extension School </b>
           </Typography>
@@ -150,12 +156,6 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Education</b>
-          </Typography>
-          <Divider />
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -199,7 +199,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Served as a source for 9 journalists seeking consultation for article topics in marketing.
+              Served as a source for 11 journalists seeking consultation for article topics in marketing.
               </Typography>
             </li>
             <li>
@@ -393,7 +393,7 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Conducted market research on 4,077 crypto projects to define their function, project-type classification, and blockchain ecosystem.
+              Conducted market research on 6,689 crypto projects to define their function, project-type classification, and blockchain ecosystem.
               </Typography>
             </li>
             <li>
