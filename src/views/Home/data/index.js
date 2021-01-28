@@ -64,6 +64,16 @@ export const account = [
 export const articles = [
   {
     cover: {
+      src: '/images/photos/articles/alice-top-marketing-trends.png',
+      srcSet: '/images/photos/articles/alice-top-marketing-trends.png 2x',
+    },
+    title: '2021 Marketing Trends and Predictions from CEOs and Founders',
+    author: 'By Alice of BisVue',
+    date: 'January 28, 2021',
+    url: 'https://bisvue.com/articles/read/2021-marketing-trends-and-predictions-from-ceos-and-founders_251.html#NickSwekosky'
+  },
+  {
+    cover: {
       src: 'https://www.creditcards.com/credit-card-news/wp-content/uploads/sites/4/how-us-president-affects-credit-cards.jpeg?crop=4:3&width=480',
       srcSet: 'https://www.creditcards.com/credit-card-news/wp-content/uploads/sites/4/how-us-president-affects-credit-cards.jpeg?crop=4:3&width=480 2x',
     },

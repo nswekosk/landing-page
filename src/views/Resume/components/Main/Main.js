@@ -164,7 +164,7 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>            
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 90% Complete]
+                Duration: [Began December 7th, 2020; 91% Complete]
               </Typography>
             </li>
           </ul>
@@ -199,7 +199,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Served as a source for 11 journalists seeking consultation for article topics in marketing.
+              Served as a source for 12 journalists seeking consultation for article topics in marketing.
               </Typography>
             </li>
             <li>
@@ -248,7 +248,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Conducted data analysis on 17 million+ variations of corn germplasm and built a service to submit the data for pedigree imputation to 15,000-node Google Kubernetes Engine clusters. [<a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes" style={{textDecoration: "underline", color: "black"}}>article</a>]
+                Conducted data analysis on 60,000+ variations of corn germplasm and built a service to submit the data for pedigree imputation to 5,000-node Google Kubernetes Engine clusters. [<a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes" style={{textDecoration: "underline", color: "black"}}>article</a>]
               </Typography>
             </li> 
             <li>
