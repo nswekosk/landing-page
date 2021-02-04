@@ -64,6 +64,16 @@ export const account = [
 export const articles = [
   {
     cover: {
+      src: 'https://cdn.shortpixel.ai/spai/w_1460+q_lossy+ret_img+to_webp/https://www.attentioninsight.com/wp-content/uploads/2021/02/landing_page.jpg',
+      srcSet: 'https://cdn.shortpixel.ai/spai/w_1460+q_lossy+ret_img+to_webp/https://www.attentioninsight.com/wp-content/uploads/2021/02/landing_page.jpg 2x',
+    },
+    title: '10 Key Elements of a High-Converting Landing Page',
+    author: 'By Maham S. Chappal',
+    date: 'February 4, 2021',
+    url: 'https://www.attentioninsight.com/conversion-optimization/elements-of-high-converting-landing-page/'
+  },
+  {
+    cover: {
       src: '/images/photos/articles/alice-top-marketing-trends.png',
       srcSet: '/images/photos/articles/alice-top-marketing-trends.png 2x',
     },

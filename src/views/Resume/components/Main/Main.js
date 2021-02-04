@@ -85,12 +85,22 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
+                Professional Experience
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
                 Education
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Work Experience
+                Awards
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Continuing Education
               </Typography>
             </li>
             <li>
@@ -100,12 +110,164 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Open-Source & Side Projects
+                Open-Source Projects
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Fellowships & Activities
+                Notable Side Projects
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Extra-Curricular Activities
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Professional Experience</b>
+          </Typography>
+          <Divider />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="https://marketmetrics.io/" style={{textDecoration: "underline", color: "black"}}>Market Metrics</a>, CEO and Founder</b> [January 2020 to present]
+          </Typography>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+                <i>A Software-as-a-Service tool to enable marketing agencies to reduce the time spent doing non-billable work.</i>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Defined a business use case, customer profile, and product roadmap by completing 150+ Zoom interviews and 1200+ cold calls, emails, and LinkedIn Sales Navigator private messages.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Grew referrals by 30.2% over 3 months by serving as a source for 12 reporters seeking consultation for articles and by moderating a Slack community, subReddit, and email newsletter.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Made all monthly and annual subscription sales and guided onboarding over Zoom.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Implemented the frontend and backend code in GoLang, React.js, and Google Cloud Platform.
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Eventy, CEO and Founder</b> [August 2018 to January 2020]
+          </Typography>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+              <i>A marketplace that connects people through entertainment events using mobile and web applications.</i>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Grew a waitlist of 100+ users to a user base of at most 2,589 weekly active users by promoting a daily list of St. Louis-based events on Instagram, Facebook, and Twitter.
+              </Typography>
+            </li>  
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Onboarded 7 local businesses by partnering with the St. Louis Department of Tourism and the East-West Gateway Foundation.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Built a data pipeline from Eventbrite to source iOS, Android, and web applications with 197,667 U.S.-based entertainment events using GoLang, ReactNative, React, and Google Cloud Platform.
+              </Typography>
+            </li>         
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Bayer Crop Sciences, Data Engineer</b> [November 2017 to February 2019]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Conducted data analysis on 60,000 variations of corn germplasm and built a GoLang service to submit for pedigree imputation to Google Kubernetes Engine clusters with at most 5,000 nodes.
+              </Typography>
+            </li> 
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Created a GoLang service to evaluate the diversity of a seed sold in any global market given a line item code and breeding year by building data pipelines, HTTP/gRPC APIs, and Helm charts.              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Initialized documentation process to streamline the onboarding process for the engineering team.
+              </Typography>
+            </li>        
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Senior Software Developer</b> [May 2017 – October 2017]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Architected, developed, and tested new features for 2 applications using GoLang and Javascript.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Provided 24/7 support to a multi-continental user base of over 10,000 on a biweekly basis.
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Software Developer</b> [February 2016 – May 2017]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Implemented backend RESTful API’s, middleware components, scripts, notification pipeline, and business logic to scale for 10,000+ users in GoLang, JavaScript, and Google Cloud Platform.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Collaborated with the UI/UX team to develop a public-facing user interface in Angular.js, Bootstrap, and Material Design.              
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Initiated team process to optimize code versioning.
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="https://www.bjc.org/" style={{textDecoration: "underline", color: "black"}}>BJC Healthcare</a>, Healthcare Informaticist</b> [June 2015 - February 2016]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Collaborated with the clinical and informatics team to build applications that provide clinical decision support for physicians and nurses leveraging Java and SQL.
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="https://www.infopluscommerce.com/" style={{textDecoration: "underline", color: "black"}}>Infoplus Commerce</a>, Junior Software Engineer</b> [December 2014 - May 2015]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Implemented supply chain management business logic in Java, SQL, Swift with a MySQL & Informix database management system.
               </Typography>
             </li>
           </ul>
@@ -140,6 +302,58 @@ const Main = props => {
             </li>
           </ul>
         </Grid>
+      </Grid>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Awards</b>
+          </Typography>
+          <Divider />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="https://www.notion.so/What-is-KERNEL-b9520eb29d954f5fb709150cae3975b1" style={{textDecoration: "underline", color: "black"}}>KERNEL Fellowship by Gitcoin and the DeFi Alliance</a></b> [January 2021]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Chosen as 1 of 50 out of 3,000+ applicants to complete a decentralized finance curriculum with industry experts as mentors.
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Achievement Award at Bayer Crop Sciences For Building Imputation Engine</b> [November 2018]
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Built a program to format the pedigrees of 60,000+ unique maize germplasm and 17,000,000+ inventory to be imputed by Google Kubernetes Engine clusters of at most 5,000 nodes.
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Continuing Education</b>
+          </Typography>
+          <Divider />
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>            
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Duration: [Began December 7th, 2020; 99% Complete]
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
             <b>MIT OpenCourseWare, Stanford Engineering Everywhere, and Harvard Extension School </b>
@@ -153,195 +367,6 @@ const Main = props => {
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
                 Audited open source mathematics and computer science courses under the tutelage of <a style={{textDecoration: "underline"}} target="blank" href="https://www.linkedin.com/in/francis-s-806a6712">Francis Schmitz</a> and mentorship of <a style={{textDecoration: "underline"}} target="blank" href="https://cs.slu.edu/~scannell/">Dr. Kevin Scannell</a>
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>            
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 91% Complete]
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-      </Grid>
-      <Grid container spacing={4}>
-        <Grid item xs={12}>
-          <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Work Experience</b>
-          </Typography>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="https://marketmetrics.io/" style={{textDecoration: "underline", color: "black"}}>Market Metrics</a>, CEO and Founder</b> [January 2020 to present]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Created a Software-as-a-Service tool that enables marketing agencies to reduce the time spent doing non-billable work by creating their client’s KPI’s, dashboards, and charts in seconds by clicking a button.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Completed 150+ Zoom interviews and 1500+ cold calls, emails, and LinkedIn messages to do market research on how marketing professionals do reporting and analysis.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Managed onboarding, retention, and revenue growth while moderating a Slack community & Mailchimp newsletter.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Served as a source for 12 journalists seeking consultation for article topics in marketing.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented the frontend and backend code in GoLang, React.js, and Google Cloud Platform.
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Eventy, CEO and Founder</b> [August 2018 to January 2020]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Created and supported a marketplace of at most 2,589 weekly active users that connected people through entertainment events.
-              </Typography>
-            </li>  
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Built a data pipeline from Eventbrite to source iOS, Android, and web applications with 197,667 U.S.-based events using GoLang, ReactNative, React, and Google Cloud Platform.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Published a daily list of St. Louis-based entertainment events on Instagram, Facebook, and Twitter to grow a wait list for our mobile applications.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Nourished relationships with the top drivers of economic growth in the St. Louis tourism industry by partnering with the St. Louis Department of Tourism and the East-West Gateway Foundation with the goal of replacing the data pipeline with local marketing teams.
-              </Typography>
-            </li>          
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Bayer Crop Sciences, Data Engineer</b> [November 2017 to February 2019]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Genomics Team, Core Contributor
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Conducted data analysis on 60,000+ variations of corn germplasm and built a service to submit the data for pedigree imputation to 5,000-node Google Kubernetes Engine clusters. [<a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes" style={{textDecoration: "underline", color: "black"}}>article</a>]
-              </Typography>
-            </li> 
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Developed data pipelines, HTTP APIs, gRPC APIs, and genomics algorithms in GoLang to facilitate the company’s global breeding research efforts.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Composed Helm charts for deployments in a Google Kubernetes Engine cluster.
-              </Typography>
-            </li> 
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Completed code review for data scientist’s tools implemented in R and Python.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Initialized documentation to streamline the onboarding process for the engineering team.
-              </Typography>
-            </li>           
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Senior Software Developer</b> [May 2017 – October 2017]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Distributed Systems ^ Application Development ^ Chrome Extension Development
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Architect, develop, and test new features for 2 applications using Go, Node.js, and Angular.js.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Provide 24/7 support to a multi-continental user base of over 10,000 on a biweekly basis.
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Software Developer</b> [February 2016 – May 2017]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Distributed Systems ^ Application Development ^ Chrome Extension Development
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Implemented backend RESTful API’s, middleware components, scripts, notification pipeline, and business logic to scale for 10,000+ users in Go, Node.js, Bash, and Google Cloud Platform.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Collaborated with the UI/UX team to develop a public-facing user interface in Angular.js, Bootstrap, and Material Design.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Initiated team process to optimize code versioning.
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="https://www.bjc.org/" style={{textDecoration: "underline", color: "black"}}>BJC Healthcare</a>, Healthcare Informaticist</b> [June 2015 - February 2016]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Collaborated with the clinical and informatics team to build applications that provide clinical decision support for physicians and nurses leveraging Java and SQL.
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="https://www.infopluscommerce.com/" style={{textDecoration: "underline", color: "black"}}>Infoplus Commerce</a>, Junior Software Engineer</b> [December 2014 - May 2015]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Implemented supply chain management business logic in Java, SQL, Swift with a MySQL & Informix database management system.
               </Typography>
             </li>
           </ul>
@@ -382,31 +407,9 @@ const Main = props => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Open-Source & Side Projects</b>
+            <b>Open-Source Projects</b>
           </Typography>
           <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Crypto Search</b> [December 2020 - Present]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Conducted market research on 6,689 crypto projects to define their function, project-type classification, and blockchain ecosystem.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Build and maintain a query tool defined as ‘Google Search for Cryptocurrency/Blockchain’ to discover any crypto project given some text input.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                <a target="_blank" href="https://cryptosearch.info/" style={{textDecoration: "underline"}}>Application Link</a>
-              </Typography>
-            </li>
-          </ul>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -434,74 +437,39 @@ const Main = props => {
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Fellowships & Activities</b>
+            <b>Notable Side Projects</b>
           </Typography>
           <Divider />
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>GitCoin KERNEL Fellowship</b> [January 2021 - Present]
+            <b>Crypto Search</b> [December 2020 - Present]
           </Typography>
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Invited & accepted to complete the DeFi track of the KERNEL fellowship as designed by the <a target="_blank" style={{textDecoration: "underline", color: "black"}} href="https://defialliance.co/">DeFi Alliance</a> including topics on:
+              Conducted market research on 6,689 crypto projects to define their function, project-type classification, and blockchain ecosystem.
               </Typography>
-              <ul style={{marginLeft: "3em"}}>
-                <li>
-                  The DeFi Landscape & Choosing an Idea 
-                    <ul style={{marginLeft: "4em"}}>
-                      <li>by Robert Leshner (Compound)</li>
-                    </ul>
-                </li>
-                <li>
-                  Forming a DeFi Company & Navigating the Regulatory Landscape 
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Marc Boiron (Manatt)</li>
-                  </ul>
-                </li>
-                <li>
-                  Market Making and Liquidity Provision in DeFi 
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Kanav Kariya (Jump Trading)</li>
-                  </ul>
-                </li>
-                <li>
-                  Token Economics, Distribution, & DAOs 
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Arjun Balaji (Paradigm)</li>
-                  </ul>
-                </li>
-                <li>
-                  Fundraising in DeFi & Decentralizing Over Time 
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Jake Chervisnky (Compound)</li>
-                  </ul>
-                </li>
-                <li>
-                  Smart Contracts: Auditing and Security / Parameterizing Risk in DeFi 
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Quantstamp Tarun Chitra (Gauntlet Network)</li>
-                  </ul>
-                </li>
-                <li>
-                  Defining Success in DeFi: Key Growth Metrics
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Jason Choi (Spartan)</li>
-                    <li>by Kevin Yedid-Botton (ParaFi)</li>
-                    <li>by Andrew Kang (Mechanism)</li>
-                    <li>by Michael Anderson (Framework)</li>
-                  </ul>
-                </li>
-                <li>
-                  Marketing, Growth, and Building in Public
-                  <ul style={{marginLeft: "4em"}}>
-                    <li>by Kain Warwick (Synthetix)</li>
-                  </ul>
-                </li>
-              </ul>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Build and maintain a query tool defined as ‘Google Search for Cryptocurrency/Blockchain’ to discover any crypto project given some text input.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                <a target="_blank" href="https://cryptosearch.info/" style={{textDecoration: "underline"}}>Application Link</a>
+              </Typography>
             </li>
           </ul>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Extra-Curricular Activities</b>
+          </Typography>
+          <Divider />
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
