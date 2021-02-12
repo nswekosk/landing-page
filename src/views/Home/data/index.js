@@ -64,6 +64,16 @@ export const account = [
 export const articles = [
   {
     cover: {
+      src: 'https://enterpriseleague.com/blog/wp-content/uploads/b2b-marketing.jpg',
+      srcSet: 'https://enterpriseleague.com/blog/wp-content/uploads/b2b-marketing.jpg 2x',
+    },
+    title: '18 B2B marketing tips to bring you success in 2021',
+    author: 'By Enterprise League',
+    date: 'February 11, 2021',
+    url: 'https://enterpriseleague.com/blog/b2b-marketing-tips/'
+  },
+  {
+    cover: {
       src: 'https://cdn.shortpixel.ai/spai/w_1460+q_lossy+ret_img+to_webp/https://www.attentioninsight.com/wp-content/uploads/2021/02/landing_page.jpg',
       srcSet: 'https://cdn.shortpixel.ai/spai/w_1460+q_lossy+ret_img+to_webp/https://www.attentioninsight.com/wp-content/uploads/2021/02/landing_page.jpg 2x',
     },

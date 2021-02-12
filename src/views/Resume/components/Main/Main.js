@@ -148,7 +148,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Grew referrals by 30.2% over 3 months by serving as a source for 12 reporters seeking consultation for articles and by moderating a Slack community, subReddit, and email newsletter.
+              Grew referrals by 30.2% over 3 months by serving as a source for 14 reporters seeking consultation for articles and by moderating a Slack community, subReddit, and email newsletter.
               </Typography>
             </li>
             <li>
