@@ -163,8 +163,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Grew customer signups by moderating a Slack workspace, subReddit, and email newsletter.
-              </Typography>
+              Moderated a Slack workspace, subReddit, and email newsletter to grow retention and activation.              </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
