@@ -143,22 +143,32 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Defined a business use case, customer profile, and product roadmap by completing 150+ Zoom interviews and 1200+ cold calls, emails, and LinkedIn Sales Navigator private messages.
+              Secured 202 signups, 11 monthly and annual subscription sales, and generated $1K+ in revenue.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Grew referrals by 30.2% over 3 months by serving as a source for 14 reporters seeking consultation for articles and by moderating a Slack community, subReddit, and email newsletter.
+              Validated the business use case and defined the product roadmap by doing 150+ interviews.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Made all monthly and annual subscription sales and guided onboarding over Zoom.
+              Acquired customers by doing 1.2K+ calls, emails, and LinkedIn private messages.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented the frontend and backend code in GoLang, React.js, and Google Cloud Platform.
+              Increased referrals by 30.2% over 3 months by serving as a source for 14 reporters.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Grew customer signups by moderating a Slack workspace, subReddit, and email newsletter.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Implemented all code in GoLang, React.js, and Google Cloud Platform.
               </Typography>
             </li>
           </ul>
@@ -173,17 +183,22 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Grew a waitlist of 100+ users to a user base of at most 2,589 weekly active users by promoting a daily list of St. Louis-based events on Instagram, Facebook, and Twitter.
+              Acquired 2.6K+ weekly active users by promoting on Instagram, Facebook, and Twitter.
               </Typography>
             </li>  
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Onboarded 7 local businesses by partnering with the St. Louis Department of Tourism and the East-West Gateway Foundation.
+              Onboarded 7 businesses through partnerships, including the St. Louis Department of Tourism.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Built a data pipeline from Eventbrite to source iOS, Android, and web applications with 197,667 U.S.-based entertainment events using GoLang, ReactNative, React, and Google Cloud Platform.
+              Built a data pipeline to source geolocation algorithms with 198K+ events.
+              </Typography>
+            </li> 
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Implemented web and mobile apps in GoLang, ReactNative, React, and Google Cloud Platform.
               </Typography>
             </li>         
           </ul>
@@ -195,16 +210,27 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Conducted data analysis on 60,000 variations of corn germplasm and built a GoLang service to submit for pedigree imputation to Google Kubernetes Engine clusters with at most 5,000 nodes.
+              Analyzed 60K variations of corn germplasm to create a pedigree classification algorithm.
               </Typography>
             </li> 
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Created a GoLang service to evaluate the diversity of a seed sold in any global market given a line item code and breeding year by building data pipelines, HTTP/gRPC APIs, and Helm charts.              </Typography>
+              Built service to facilitate imputation to Google Kubernetes Engine clusters with up to 5K nodes.
+              </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Initialized documentation process to streamline the onboarding process for the engineering team.
+              Created service to define seed diversity sold in any market given a line item and breeding year.
+              </Typography>
+            </li>  
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Coded data science logic, data pipelines, HTTP and gRPC APIs, and Helm charts in GoLang.
+              </Typography>
+            </li>  
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Initialized documentation process to streamline the onboarding process for the engineering team.
               </Typography>
             </li>        
           </ul>
@@ -216,12 +242,17 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Architected, developed, and tested new features for 2 applications using GoLang and Javascript.
+              Designed and built Chrome Extension to increase engagement to the cloud platform status page.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Provided 24/7 support to a multi-continental user base of over 10,000 on a biweekly basis.
+              Architected, developed, and tested new features for 2 applications using GoLang and Javascript.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Provided 24/7 support to a multi-continental user base of over 10k+ on a biweekly basis.
               </Typography>
             </li>
           </ul>
@@ -233,17 +264,22 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented backend RESTful API’s, middleware components, scripts, notification pipeline, and business logic to scale for 10,000+ users in GoLang, JavaScript, and Google Cloud Platform.
+              Built APIs, middleware, scripts, notification pipeline, and business logic to scale for 10K+ users.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Collaborated with the UI/UX team to develop a public-facing user interface in Angular.js, Bootstrap, and Material Design.              
+              Collaborated with the UI/UX team to build public-facing a user interface.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Initiated team process to optimize code versioning.
+              Coded frontend and backend in GoLang, Node.js, AngularJS, and Google Cloud Platform.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Initiated team process to optimize code versioning.
               </Typography>
             </li>
           </ul>
