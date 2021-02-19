@@ -143,7 +143,7 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Secured 202 signups, 11 monthly and annual subscription sales, and generated $1K+ in revenue.
+              Secured 202 signups, 12 monthly and annual subscription sales, and generated $1K+ in revenue.
               </Typography>
             </li>
             <li>
@@ -153,7 +153,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Acquired customers by doing 1.2K+ calls, emails, and LinkedIn private messages.
+              Acquired customers by making 1.2K+ cold calls, emails, and LinkedIn private messages.
               </Typography>
             </li>
             <li>
@@ -192,7 +192,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Built a data pipeline to source geolocation algorithms with 198K+ events.
+              Built a data pipeline to source a geolocation data structure with 198K+ events.
               </Typography>
             </li> 
             <li>
@@ -214,7 +214,7 @@ const Main = props => {
             </li> 
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Built service to facilitate imputation to Google Kubernetes Engine clusters with up to 5K nodes.
+              Built service to facilitate imputation to Google Kubernetes Engine clusters of up to 5K nodes.
               </Typography>
             </li>
             <li>
