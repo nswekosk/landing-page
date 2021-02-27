@@ -135,7 +135,7 @@ const Main = props => {
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="https://marketmetrics.io/" style={{textDecoration: "underline", color: "black"}}>Market Metrics</a>, CEO and Founder</b> [January 2020 to February 2021]
+            <b><a target="_blank" href="https://marketmetrics.io/" style={{textDecoration: "underline", color: "black"}}>Market Metrics</a>, CEO and Founder</b> [January 2020 to March 2021]
           </Typography>
           <Typography variant="h6" gutterBottom color="textPrimary">
                 <i>A Software-as-a-Service tool to enable marketing agencies to reduce the time spent doing non-billable work.</i>
