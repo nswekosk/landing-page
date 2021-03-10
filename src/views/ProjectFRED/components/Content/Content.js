@@ -78,7 +78,7 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography component="p" variant="h6" color="textPrimary">
-        While a Senior Software Developer at CenturyLink Cloud, I took courses in economics for my personal interest at St. Louis Community College. After receiving a 100% in a 117-question final exam for the course 'Principles of Macroeconomics', I sought out a personal coding project in this domain. 
+        While a Senior Software Developer at CenturyLink Cloud, I took online courses in economics for my personal interest at St. Louis Community College. After receiving a 100% in a 117-question final exam for the course 'Principles of Macroeconomics', I sought out a personal coding project in this domain. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
         While looking for data assets in the economics industry, I noticed the Federal Reserve’s Economic Dataset had an API with clients available for every language except GoLang. I was new to GoLang after starting a project at CenturyLink and felt building a software client would help me improve my ability to build with the language.

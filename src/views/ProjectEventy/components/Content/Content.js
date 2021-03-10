@@ -78,19 +78,19 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography component="p" variant="h6" color="textPrimary">
-        I started by building an API-based service written in GoLang that can provide some number of events provided some geographical coordinates and a radius in kilometers. I built data pipelines to supply 197K+ events from Eventbrite to supply this backend algorithm.
+        I started Eventy by building an API-based service written in GoLang that returns local events provided a pair of geographical coordinates and a radius in kilometers. I built data pipelines to supply 198K+ events from Eventbrite to be used in a self-designed geolocation algorithm.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        Then I built iOS and Android mobile apps using React Native to enable users to swipe events they like/dislike and provide more personalized recommendations of local events.
+        Then I built iOS and Android mobile clients using React Native to enable users to swipe events they liked or disliked. This swiping feature faciliated personalized recommendations of local events.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        I grew the user base to at most 2.6K weekly active users. I acquired users by promoting weekly events on social media, partnering with the St. Louis Department of Tourism, and joining the OneSTL business network to facilitate the St. Louis region’s sustainability efforts with community engagement events.
+        I grew the user base to at most 2.6K weekly active users. I acquired users by promoting weekly events on social media. In addition, I grew referrals by partnering with the St. Louis Department of Tourism and joining the OneSTL business network to facilitate the St. Louis region’s sustainability efforts with community engagement events.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        In order to reduce reliance on Eventbrite as my sole supplier of event data, I created a web app for marketing professionals to publish events for free, advertise events, and purchase subscriptions to create their KPIs, charts, and dashboards in seconds by pushing a button. 
+        In order to reduce reliance on Eventbrite as my sole supplier of event data, I created a web app for marketing professionals to publish events for free. To grow revenue, I built the ability to advertise events and to purchase monthly or annual subscriptions to use our reporting features. These features enabled users to create their KPIs, charts, and dashboards in seconds by pushing a button. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        When Eventbrite closed public access to their data source of events, I shut down the mobile apps and rebranded the web app to Market Metrics.
+        When Eventbrite closed public access to their data source of events, I shut down the mobile apps and rebranded the web app to <a target="_blank" href="/market-metrics" style={{textDecoration: "underline"}}>Market Metrics</a>.
         </Typography>
       </div>
       <div className={classes.section}>

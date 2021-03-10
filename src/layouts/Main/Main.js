@@ -97,7 +97,7 @@ const Main = props => {
           ],
         },
         marketing: {
-          groupTitle: 'Marketing',
+          groupTitle: 'Marketing Analytics',
           pages: [
             {
               title: 'Market Metrics',

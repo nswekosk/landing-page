@@ -78,16 +78,16 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography component="p" variant="h6" color="textPrimary">
-        As a data engineer at Bayer Crop Science, I built data asset services with a focus on genomics. Our services were accessible through HTTP and gRPC-based API’s.   
+        As a data engineer at Bayer Crop Science, I built backend services that supplied genomics-based data assets. Our services were accessible through HTTP and gRPC-based APIs.   
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        Data assets were created through ingestion by data-pipelines or by automated jobs implementing algorithms defined by research from Bayer's data scientists. All services were deployed on Google Kubernetes Engine Clusters in Google Cloud Platform while building Helm chart templates for each service.
+        Data assets were created by data-ingestion-pipelines or by automated jobs implementing algorithms defined by research from Bayer's data scientists. All services were deployed on Google Kubernetes Engine Clusters on Google Cloud Platform while using we Helm chart templates we created for each service.
        </Typography>
        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-       As the sole member of the diversity coefficient project, I created a service to define seed diversity sold in any market given a line item and breeding year. This was supplemented by 2 complimentary private services, one which provided a list of genotypes for a given seed’s line code and a service to provide a pedigree subgraph given a unique germplasm identifier.
+       As the sole member of the diversity coefficient project, I created a service to define the seed diversity sold in any market given a line item and breeding year. This was supplemented by 2 complimentary private services, one which provided a list of genotypes for a given seed’s line code and a service to provide a pedigree subgraph given a unique germplasm identifier.
        </Typography>
        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-       Furthermore, I initialized the documentation process to streamline the onboarding process for the engineering team.
+       Furthermore, I initialized the the engineering team's documentation process to streamline the onboarding process.
        </Typography>
       </div>
     </div>

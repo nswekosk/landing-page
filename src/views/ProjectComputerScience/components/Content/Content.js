@@ -81,46 +81,46 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        When I was working on my doctorate in physical therapy at Saint Louis University (SLU), I became interested in transferring over to the computer science program to work towards an undergraduate degree. But after speaking to admissions, I calculated the amount it would cost for 2 more years of school and I was turned off by additional amounts of private school undergraduate tuition debt I would have to add to my existing loan amount.
+        While working on my <a target="_blank" href="/physical-therapy" style={{textDecoration: "underline"}}>docatorate in physical therapy</a> at Saint Louis University (SLU), I became interested in transferring to SLU's computer science program to work towards an undergraduate degree. But after speaking to admissions, I calculated the amount in tuition 2 more years of private school would cost and I was turned off by adding to my existing loan amount.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        My friend Mark was a computer science student at the time and I told him I was interested in transitioning and was looking for a mentor. He pointed me in the direction of his mentor, Dr. Kevin Scannel, and I found his office hours on his door. I read up on his professional research and went into his officer hours one day to introduce myself. 
+        I talked to my friend Mark, who was a computer science student at the time, and told him about my interest in transitioning. I told him I was looking for a mentor and he pointed me towards his, Dr. Kevin Scannel. I found Dr. Scannel's office hours on his door, read up on his professional research, and went into his office one day to introduce myself. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
         While there, I asked him if people were able to work at companies like Google without a degree. He told me it was possible.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        One day while Google-searching for computer science programs, I noticed that Stanford, Harvard, and MIT published the same open-courseware courses required for SLU’s computer science program, except open source. 
+        One day not long after, I was Google-searching computer science programs and noticed Stanford, Harvard, and MIT published the same open-courseware courses required for SLU’s computer science program, except as open-source courses. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        They published lectures with videos, powerpoints, and text documents. They provided homework assignments, tests, and quizzes for 3 years with the answers and explanations. They provided a course’s syllabus and I was able to find each course’s textbook online, many times for free as a PDF document.
+        These open-source courses contained lectures with videos, powerpoints, and text documents. They provided homework assignments, tests, and quizzes for 3 years with the answers and explanations. Each course had syllabus and I was able to find the relevant textbook at my local library or online for free as a PDF document.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        While working full time on my doctorate, I began completing the introductory and mathematics courses. After a year of working on these courses, my grades began to lag and I found myself spending more time learning the computer science subjects instead of the physical therapy content.
+        While continuing my doctorate program, I began completing the introductory and mathematics courses in my personal time. After a year, I found myself spending more time learning the computer science subjects instead of the physical therapy content and my grades began to decline.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        When asked by my professor if I would like to continue in the program, I declined and dropped out with a year and a half to finish. I began a job as a part-time physical therapy technician at Depaul Hospital’s rehabilitation clinic (St. Louis, MO) and spent all of my personal time working through the curriculum.
+        After doing terrible on a final exam on how to diagnose a patient, my professor if I would like to continue in the program for another year to retake the course. I declined and dropped out the next week. I began a job as a part-time physical therapy technician at DePaul Hospital’s rehabilitation clinic (in St. Louis, MO) and spent all of my personal time working through the computer science curriculum.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        In an effort to conserve money, I began going to local startup meetups where I could meet new people, learn about modern-day computer science concepts, and eat dinner for free that was paid for by the corporate sponsors. 
+        In an effort to conserve money, I began going to local technology meetups where I could meet new people, learn about modern-day technology concepts, and eat the free dinners paid for by the corporate sponsors. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        One meetup I frequented was called Code Until Dawn. This was a meetup of St. Louis-based developers that would meet on Fridays at a local incubator and hangout or code until they closed the venue on Saturday.
+        One meetup I frequented was called Code Until Dawn. This was a meetup of St. Louis-based software developers that met on Fridays at a local startup incubator and hangout or code until they closed the venue on Saturday morning.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        One night at a Code Until Dawn meetup, I was working on a homework assignment in C++ that focused on implementing a library for LinkedILists. I was struggling with the concept of computational complexity and was not having luck from any present to help me.
+        One night at a Code Until Dawn meetup, I was working on a homework assignment in C++ that focused on implementing a library for LinkedLists. I was struggling and nobody present could help me.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        At around 2:00AM and with only a few of us remaining, Francis Schmitz stumbled in to hangout. At the time, Francis was a Senior Engineer at Exegy and extremely enthusiastic at improving his engineering career into the world of high frequency trading. 
+        At around 2:00AM and with only a few of us remaining, <a target="_blank" href="https://www.linkedin.com/in/francis-s-806a6712" style={{textDecoration: "underline"}}>Francis Schmitz</a> stumbled into the meetup to hangout. At the time, Francis was a Senior Engineer at Exegy and extremely enthusiastic at improving his engineering career in the world of high-frequency trading. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        He sat down with me and helped me through my homework while showing me how to edit my code using VIM. I asked him if he would be open to meeting every Wednesday to serve as my tutor and he accepted without payment.
+        He sat down with me and helped me through my homework while showing me how to edit my code using VIM. I asked if he would be open to serving as my tutor. He gladly accepted and refused to take payment.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        From then on, Francis and I met every Wednesday at a local public library or a Starbucks and he would help me understand how to implement new algorithms and data structures and how to define algorithmic complexity. 
+        From then on, Francis and I met every Wednesday evening at a local public library or a local Starbucks. He would help me understand algorithms and data structures, the tradeoffs in memory management, and how to evaluate algorithmic efficiency. 
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        When I was preparing for my first interview at Infoplus, Francis clarified what questions I should prepare for and what concepts I should understand.
+        When I began preparing for my interview at Infoplus, Francis clarified the questions I should practice and the concepts I should understand.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
         I continued to meet with Francis on a weekly basis for short term feedback on software engineering concepts. In addition, I continued to go into Dr. Kevin Scannel’s office hours on a biannual basis for long-term feedback on computer science in the technology industry.

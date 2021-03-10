@@ -100,11 +100,6 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-                Continuing Education
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
                 Research Experience
               </Typography>
             </li>
@@ -171,6 +166,9 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+                <b><a target="_blank" href="/market-metrics" style={{textDecoration: "underline"}}>Learn More About Market Metrics</a></b>
+          </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -201,6 +199,9 @@ const Main = props => {
               </Typography>
             </li>         
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+                <b><a target="_blank" href="/eventy" style={{textDecoration: "underline"}}>Learn More About Eventy</a></b>
+          </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -233,6 +234,12 @@ const Main = props => {
               </Typography>
             </li>        
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+                <b><a target="_blank" href="/diversity-coefficient" style={{textDecoration: "underline"}}>Learn More About The Diversity Coefficient Service</a></b>
+          </Typography>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+                <b><a target="_blank" href="/imputation" style={{textDecoration: "underline"}}>Learn More About The Pedigree Imputation Service</a></b>
+          </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -255,6 +262,9 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="/ctl-status" style={{textDecoration: "underline"}}>Learn More About CenturyLink Cloud Status</a></b>
+          </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -282,6 +292,9 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="/ctl-status" style={{textDecoration: "underline"}}>Learn More About CenturyLink Cloud Status</a></b>
+          </Typography>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
@@ -336,6 +349,29 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="/physical-therapy" style={{textDecoration: "underline"}}>Learn More About My Doctorate Candidacy</a></b>
+          </Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <Typography variant="h5" gutterBottom color="textPrimary">
+            <b>MIT OpenCourseWare, Stanford Engineering Everywhere, and Harvard Extension School </b>
+          </Typography>
+          <ul style={{marginLeft: "2em"}}>            
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Duration: [January 2014 – June 2015]
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Audited open source mathematics and computer science courses under the tutelage of <a style={{textDecoration: "underline"}} target="blank" href="https://www.linkedin.com/in/francis-s-806a6712">Francis Schmitz</a> and mentorship of <a style={{textDecoration: "underline"}} target="blank" href="https://cs.slu.edu/~scannell/">Dr. Kevin Scannell</a>
+              </Typography>
+            </li>
+          </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="/computer-science" style={{textDecoration: "underline"}}>Learn More About My Computer Science Education Program</a></b>
+          </Typography>
         </Grid>
       </Grid>
       <Grid container spacing={4}>
@@ -365,43 +401,6 @@ const Main = props => {
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
                 Built a program to format the pedigrees of 60,000+ unique maize germplasm and 17,000,000+ inventory to be imputed by Google Kubernetes Engine clusters of at most 5,000 nodes.
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-      </Grid>
-      <Grid container spacing={4}>
-        <Grid item xs={12}>
-          <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Continuing Education</b>
-          </Typography>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Wall Street Prep’s 6-Course Financial Modeling Program </b>
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>            
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [Began December 7th, 2020; 99% Complete]
-              </Typography>
-            </li>
-          </ul>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>MIT OpenCourseWare, Stanford Engineering Everywhere, and Harvard Extension School </b>
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>            
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Duration: [January 2014 – June 2015]
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Audited open source mathematics and computer science courses under the tutelage of <a style={{textDecoration: "underline"}} target="blank" href="https://www.linkedin.com/in/francis-s-806a6712">Francis Schmitz</a> and mentorship of <a style={{textDecoration: "underline"}} target="blank" href="https://cs.slu.edu/~scannell/">Dr. Kevin Scannell</a>
               </Typography>
             </li>
           </ul>
@@ -467,6 +466,9 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="/fred" style={{textDecoration: "underline"}}>Learn More About The Federal Reserve Open-Source Toolkit</a></b>
+          </Typography>
         </Grid>
       </Grid>
       <Grid container spacing={4}>
@@ -497,6 +499,9 @@ const Main = props => {
               </Typography>
             </li>
           </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+            <b><a target="_blank" href="/cryptosearch" style={{textDecoration: "underline"}}>Learn More About CryptoSearch</a></b>
+          </Typography>
         </Grid>
       </Grid>
       <Grid container spacing={4}>

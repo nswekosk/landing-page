@@ -78,19 +78,21 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography component="p" variant="h6" color="textPrimary">
-          When Eventbrite closed public access to Eventy’s source of data, we pivoted the web app into Market Metrics.
+          When Eventbrite closed public access to their event data, I pivoted <a target="_blank" href="/eventy" style={{textDecoration: "underline"}}>Eventy</a>’s web app into Market Metrics.
+         </Typography>
+        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
           Market Metrics is a software-as-a-service tool to enable marketing agencies to reduce the time spent doing non-billable work. 
           My solution was to build automation to create KPIs, charts, and dashboards in seconds by pushing a button.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        I validated the business case and defined the product roadmap by interviewing 150+ interviews over Zoom.
+        I validated the business case and defined the product roadmap by completing 150+ prospective-user interviews over Zoom.
           To facilitate customer acquisitions, I made 30+ cold calls per day, completed demos and customer interviews over Zoom, posted content daily on social media. 
           To increase revenue, I sold monthly and annual subscriptions generating $1K+ in revenue.
           After product launch, I grew customer referrals by 30.2% over 3 months by serving as a source for 14 published media articles. 
+          To augment customer retention and activation, I built and moderated a Slack workspace and a subReddit and published a monthly email newsletter.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        To augment customer retention and activation, I built and moderated a Slack workspace and a subReddit and published a monthly email newsletter.
-          I built new features based on agile principles and customer feedback in GoLang, React.js, and Google Cloud Platform.
+          I built all features based on customer feedback in GoLang, React.js, and Google Cloud Platform.
         </Typography>
       </div>
       <div className={classes.section}>

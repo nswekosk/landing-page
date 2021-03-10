@@ -54,7 +54,7 @@ const Content = props => {
         </Typography>
         <Divider />
         <Typography variant="h6" gutterBottom color="textPrimary">
-          <i>An application that shows the scheduled maintenances and operational status for each service on CenturyLink's cloud-based platform in all available locations.</i>
+          <i>An application that shows the scheduled maintenances and operational status for each service on CenturyLink's cloud-based platform in all available global locations.</i>
         </Typography>
       </div>
       <div className={classes.section}>
@@ -78,16 +78,16 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography component="p" variant="h6" color="textPrimary">
-        I co-built a web-based service that enabled CenturyLink Cloud customers and partners to evaluate the planned maintenance schedule or operational status of every product in CenturyLink’s cloud-based platform in every available location. We built a backend panel that enabled customer service agents to update a product’s status, schedule a planned maintenance event, and send email notifications to 10K+ recipients. In addition, we built another backend panel for customers and partners to manage their notification preferences.
+        I co-built a web-based service that enabled CenturyLink Cloud customers and partners to evaluate the planned maintenance schedule or operational status of every product in CenturyLink’s cloud-based platform in every available location. We built a portal that enabled customer service agents to update a product’s status, schedule a planned maintenance event, and send email notifications to 10K+ recipients. In addition, we built a separate portal for customers and partners to manage their notification preferences.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        The application’s frontend was implemented in Angular.JS and the backend was built in GoLang. I collaborated with the UI/UX team to build a public-facing user interface. In addition, I initiated the team process to optimize code versioning and manage a remote QA environment using Google Cloud Platform.
+        The application’s frontend was implemented in Angular.JS and the backend was built in GoLang. I collaborated with the UI/UX team to build a public-facing user interface. In addition, I initiated the team process to optimize code versioning and manage multiple remote environments on Google Cloud Platform for development, quality assurance, production, and user sandbox.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        In order to view the overall cloud platform’s operational status in real time, I designed and built a Chrome Extension indicating if a service’s operational status was impaired or if a scheduled maintenance was in progress. It can be found in the Chrome Web Store <a target="_blank" href="https://chrome.google.com/webstore/detail/centurylink-cloud-status/abhpdblgadmelnffnnfddppakgbfimmj?hl=en" style={{textDecoration: "underline"}}>here</a>.
+        In order to view the overall cloud platform’s operational status in real time, I designed and built a Chrome Extension indicating if a service’s operational status was impaired or if a scheduled maintenance was in progress. It can be found on the Chrome Web Store <a target="_blank" href="https://chrome.google.com/webstore/detail/centurylink-cloud-status/abhpdblgadmelnffnnfddppakgbfimmj?hl=en" style={{textDecoration: "underline"}}>here</a>.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        All work was completed while going from a team of 7 to 2 engineers and while cycling through 3 different engineering managers.
+        All work was completed while going from a team of 7 to 2 engineers and while cycling through 3 different engineering managers and 2 different product owners.
         </Typography>
       </div>
       <div className={classes.section}>

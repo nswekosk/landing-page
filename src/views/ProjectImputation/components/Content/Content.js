@@ -54,7 +54,7 @@ const Content = props => {
         </Typography>
         <Divider />
         <Typography variant="h6" gutterBottom color="textPrimary">
-          <i>Analyzed 60K variations of corn germplasm and 17M related inventory operations to create a pedigree classification algorithm.</i>
+          <i>Analyzed 60K variations of corn germplasm and 17M related inventory operations to create a pedigree classification algorithm and service.</i>
         </Typography>
       </div>
       <div className={classes.section}>
@@ -78,19 +78,16 @@ const Content = props => {
           <span style={{textDecoration: "underline"}}>Overview</span>
         </Typography>
         <Typography component="p" variant="h6" color="textPrimary">
-        As a data engineer at Bayer Crop Science, I built data asset services with a focus on genomics. Our services were accessible through HTTP and gRPC-based API’s.   
+        As a data engineer at Bayer Crop Science, I built backend services that supplied genomics-based data assets. Our services were accessible through HTTP and gRPC-based APIs.   
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        Data assets were created by data-ingestion-pipelines or by automated jobs implementing algorithms defined by research from Bayer's data scientists. All services were deployed on Google Kubernetes Engine Clusters on Google Cloud Platform while building Helm chart templates for each service.
+        Data assets were created by data-ingestion-pipelines or by automated jobs implementing algorithms defined by research from Bayer's data scientists. All services were deployed on Google Kubernetes Engine Clusters on Google Cloud Platform while using we Helm chart templates we created for each service.
        </Typography>
        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
         As a member of the pedigree imputation project, I analyzed 60K variations of corn germplasm to create a pedigree classification algorithm. I then turned that algorithm into a service to submit pedigrees to an imputation service that ultimately scaled up to Google Kubernetes Engine Cluster of at most 5K nodes. This required completing biweekly engineering sprints while collaborating with data scientists to create solutions to optimize Bayer’s global breeding research efforts. 
        </Typography>
        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-       Our team was awarded internally for the achievement to complete this never-before-done project. In addition, Google Cloud Platform published a blog article describing the scale of the project; it can be found <a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes?utm_source=nickswekosky.com" style={{textDecoration: "underline"}}>here</a>.
-       </Typography>
-       <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-       Furthermore, I initialized the documentation process to streamline the onboarding process for the engineering team.
+       Our team was awarded internally for the achievement to complete this never-before-done, large scale project. In addition, Google Cloud Platform published a blog article describing the significance of the project; it can be found <a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes?utm_source=nickswekosky.com" style={{textDecoration: "underline"}}>here</a>.
        </Typography>
       </div>
       <div className={classes.section}>
