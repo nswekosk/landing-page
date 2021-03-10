@@ -100,7 +100,7 @@ const Content = props => {
           />
         </a>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        Photo Credit: <a target="_blank" href="https://twitter.com/timwilliate" style={{textDecoration: "underline"}}>Tim Williamson</a>
+        Bayer Crop Science’s 60,000 member corn "galaxy," where every dot is an individual corn germplasm, and every line is the relationship between them. Photo Credit: <a target="_blank" href="https://twitter.com/timwilliate" style={{textDecoration: "underline"}}>Tim Williamson</a>
         </Typography>
       </div>
     </div>
