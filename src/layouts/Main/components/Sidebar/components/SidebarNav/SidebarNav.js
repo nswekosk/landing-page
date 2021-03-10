@@ -58,9 +58,9 @@ const SidebarNav = props => {
   const { pages, onClose, className, ...rest } = props;
   const classes = useStyles();
 
-  const landings = pages.landings;
-  const supportedPages = pages.pages;
-  const account = pages.account;
+  const education = pages.education;
+  const engineering = pages.engineering;
+  const product = pages.product;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -93,58 +93,48 @@ const SidebarNav = props => {
     );
   };
 
-  const LandingPages = () => {
-    const { services, apps, web } = landings.children;
-    return (
-      <div className={classes.menu}>
-        <div className={classes.menuItem}>
-          <MenuGroup item={services} />
-          <MenuGroup item={apps} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={web} />
-        </div>
-      </div>
-    );
-  };
-
-  const SupportedPages = () => {
+  const EducationPages = () => {
     const {
-      career,
-      helpCenter,
-      company,
-      contact,
-      blog,
-      portfolio,
-    } = supportedPages.children;
+      physicaltherapy,
+      engineering
+    } = education.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
-          <MenuGroup item={career} />
-          <MenuGroup item={helpCenter} />
-          <MenuGroup item={company} />
-        </div>
-        <div className={classes.menuItem}>
-          <MenuGroup item={contact} />
-          <MenuGroup item={blog} />
-          <MenuGroup item={portfolio} />
+          <MenuGroup item={physicaltherapy} />
+          <MenuGroup item={engineering} />
         </div>
       </div>
     );
   };
-
-  const AccountPages = () => {
-    const { settings, signup, signin, password, error } = account.children;
+  const EngineeringPages = () => {
+    const {
+      economics,
+      cloudcomputing,
+      genomics,
+    } = engineering.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
-          <MenuGroup item={settings} />
-          <MenuGroup item={signup} />
+          <MenuGroup item={genomics} />
+          <MenuGroup item={cloudcomputing} />
         </div>
         <div className={classes.menuItem}>
-          <MenuGroup item={signin} />
-          <MenuGroup item={password} />
-          <MenuGroup item={error} />
+          <MenuGroup item={economics} />
+        </div>
+      </div>
+    );
+  };
+  const ProductPages = () => {
+    const {
+      entertainment,
+      marketing
+    } = product.children;
+    return (
+      <div className={classes.menu}>
+        <div className={classes.menuItem}>
+          <MenuGroup item={marketing} />
+          <MenuGroup item={entertainment} />
         </div>
       </div>
     );
@@ -178,6 +168,33 @@ const SidebarNav = props => {
         >
           Resume
         </Typography>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Typography variant="h6" color="textPrimary" gutterBottom>
+          Education
+        </Typography>
+        <EducationPages />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Divider className={classes.divider} />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Typography variant="h6" color="textPrimary" gutterBottom>
+          Engineering
+        </Typography>
+        <EngineeringPages />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Divider className={classes.divider} />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Typography variant="h6" color="textPrimary" gutterBottom>
+          Product
+        </Typography>
+        <ProductPages />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Divider className={classes.divider} />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button

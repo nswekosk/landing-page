@@ -119,7 +119,7 @@ const About = props => {
           </div>
         </Section>
         <Image
-          src="https://media-exp1.licdn.com/dms/image/C5603AQHVUqa9aoiycQ/profile-displayphoto-shrink_400_400/0/1531073055378?e=1613001600&v=beta&t=j5Odr5-1KoOhS71r1za_fd0Y1QpAojQ3-ft45aI58nU"
+          src="/images/photos/blog/Large_Photo.jpg"
           className={classes.image}
           data-aos="fade-up"
           lazy={false}

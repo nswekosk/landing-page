@@ -192,7 +192,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Built a data pipeline to source a geolocation data structure with 198K+ events.
+              Built a data pipeline to source a geolocation algorithm with 198K+ events.
               </Typography>
             </li> 
             <li>

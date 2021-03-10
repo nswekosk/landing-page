@@ -1,4 +1,13 @@
 export { default as Home } from './Home';
 export { default as Resume } from './Resume';
+export { default as ProjectCryptoSearch } from './ProjectCryptoSearch';
+export { default as ProjectEventy } from './ProjectEventy';
+export { default as ProjectImputation } from './ProjectImputation';
+export { default as ProjectMarketMetrics } from './ProjectMarketMetrics';
+export { default as ProjectFRED } from './ProjectFRED';
+export { default as ProjectCTLStatus } from './ProjectCTLStatus';
+export { default as ProjectDiversityCoefficient } from './ProjectDiversityCoefficient';
+export { default as ProjectComputerScience } from './ProjectComputerScience';
+export { default as ProjectPhysicalTherapy } from './ProjectPhysicalTherapy';
 export { default as NotFound } from './NotFound';
 export { default as NotFoundCover } from './NotFoundCover';

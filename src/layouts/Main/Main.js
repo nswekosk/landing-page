@@ -30,8 +30,8 @@ const Main = props => {
           groupTitle: 'Physical Therapy',
           pages: [
             {
-              title: 'Docatorate Candidate',
-              href: '/career-listing-minimal',
+              title: 'Doctorate Candidate',
+              href: '/physical-therapy',
             }
           ],
         },
@@ -40,7 +40,7 @@ const Main = props => {
           pages: [
             {
               title: 'Self-Taught',
-              href: '/career-listing',
+              href: '/computer-science',
             }
           ],
         }
@@ -50,30 +50,12 @@ const Main = props => {
       title: 'Engineering',
       id: 'engineering',
       children: {
-        supplychain: {
-          groupTitle: 'Supply Chain',
-          pages: [
-            {
-              title: 'Infoplus Commerce',
-              href: '/career-listing',
-            }
-          ],
-        },
-        healthcare: {
-          groupTitle: 'Healthcare',
-          pages: [
-            {
-              title: 'Infection Prevention',
-              href: '/career-listing-minimal',
-            }
-          ],
-        },
         economics: {
           groupTitle: 'Economics',
           pages: [
             {
               title: 'Federal Reserve Economic Dataset',
-              href: '/career-listing',
+              href: '/fred',
             }
           ],
         },
@@ -82,7 +64,7 @@ const Main = props => {
           pages: [
             {
               title: 'CenturyLink Status',
-              href: '/career-listing',
+              href: '/ctl-status',
             }
           ],
         },
@@ -91,26 +73,26 @@ const Main = props => {
           pages: [
             {
               title: 'Pedigree Imputation',
-              href: '/career-listing',
+              href: '/imputation',
             },
             {
               title: 'Breeding Diversity',
-              href: '/career-listing',
+              href: '/diversity-coefficient',
             }
           ],
         }
       },
     },
-    entrepreneurship: {
-      title: 'Entrepreneurship',
-      id: 'entrepreneurship',
+    product: {
+      title: 'Product',
+      id: 'product',
       children: {
         entertainment: {
           groupTitle: 'Entertainment',
           pages: [
             {
               title: 'Eventy',
-              href: '/career-listing',
+              href: '/eventy',
             }
           ],
         },
@@ -119,7 +101,7 @@ const Main = props => {
           pages: [
             {
               title: 'Market Metrics',
-              href: '/career-listing',
+              href: '/market-metrics',
             }
           ],
         }

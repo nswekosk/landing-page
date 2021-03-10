@@ -135,7 +135,7 @@ const Topbar = props => {
 
   const education = pages.education;
   const engineering = pages.engineering;
-  const entrepreneurship = pages.entrepreneurship;
+  const product = pages.product;
 
   const MenuGroup = props => {
     const { item } = props;
@@ -184,8 +184,6 @@ const Topbar = props => {
   };
   const EngineeringPages = () => {
     const {
-      healthcare,
-      supplychain,
       economics,
       cloudcomputing,
       genomics,
@@ -193,24 +191,20 @@ const Topbar = props => {
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
-          <MenuGroup item={economics} />
-          <MenuGroup item={supplychain} />
-        </div>
-        <div className={classes.menuItem}>
           <MenuGroup item={genomics} />
           <MenuGroup item={cloudcomputing} />
         </div>
         <div className={classes.menuItem}>
-          <MenuGroup item={healthcare} />
+          <MenuGroup item={economics} />
         </div>
       </div>
     );
   };
-  const EntrepreneurshipPages = () => {
+  const ProductPages = () => {
     const {
       entertainment,
       marketing
-    } = entrepreneurship.children;
+    } = product.children;
     return (
       <div className={classes.menu}>
         <div className={classes.menuItem}>
@@ -228,8 +222,8 @@ const Topbar = props => {
     if (id === 'engineering') {
       return <EngineeringPages />;
     }
-    if (id === 'entrepreneurship') {
-      return <EntrepreneurshipPages />;
+    if (id === 'product') {
+      return <ProductPages />;
     }
   };
 
@@ -240,16 +234,6 @@ const Topbar = props => {
       className={clsx(classes.root, className)}
     >
       <Toolbar disableGutters className={classes.toolbar}>
-        {/*<div className={classes.logoContainer}>
-          <a href="/" title="thefront">
-            <Image
-              className={classes.logoImage}
-              src="/images/logos/logo.svg"
-              alt="thefront"
-              lazy={false}
-            />
-          </a>
-  </div>*/}
         <div className={classes.flexGrow} />
         <Hidden smDown>
           <List className={classes.navigationContainer}>
@@ -275,19 +259,8 @@ const Topbar = props => {
                 Resume
               </Typography>
             </ListItem>
-            {/*<ListItem className={classes.listItem}>
-              <Typography
-                variant="body1"
-                color="textSecondary"
-                className={classes.listItemText}
-                component="a"
-                target="blank"
-                href="https://thefront-styleguide.maccarianagency.com/"
-              >
-                News
-              </Typography>
-            </ListItem>
-            [education, engineering, entrepreneurship].map((page, i) => (
+            {
+            [education, engineering, product].map((page, i) => (
               <div key={page.id}>
                 <ListItem
                   aria-describedby={page.id}
@@ -332,7 +305,7 @@ const Topbar = props => {
                   <div>{renderPages(page.id)}</div>
                 </Popover>
               </div>
-            ))*/}
+            ))}
             <ListItem className={classes.listItem}>
               <Button
                 size="large"
