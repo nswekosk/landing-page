@@ -87,7 +87,7 @@ const Content = props => {
         As a member of the pedigree imputation project, I analyzed 60K variations of corn germplasm to create a pedigree classification algorithm. I then turned that algorithm into a service to submit pedigrees to an imputation service that ultimately scaled up to Google Kubernetes Engine Cluster of at most 5K nodes. This required completing biweekly engineering sprints while collaborating with data scientists to create solutions to optimize Bayer’s global breeding research efforts. 
        </Typography>
        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-       Our team was awarded internally for the achievement to complete this never-before-done project. In addition, my former manager Rob Long published a blog article defining the accomplishment on Google Cloud Platform’s blog <a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes?utm_source=nickswekosky.com" style={{textDecoration: "underline"}}>here</a>.
+       Our team was awarded internally for the achievement to complete this never-before-done project. In addition, Google Cloud Platform published a blog article describing the scale of the project; it can be found <a target="_blank" href="https://cloud.google.com/blog/products/containers-kubernetes/google-kubernetes-engine-clusters-can-have-up-to-15000-nodes?utm_source=nickswekosky.com" style={{textDecoration: "underline"}}>here</a>.
        </Typography>
        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
        Furthermore, I initialized the documentation process to streamline the onboarding process for the engineering team.
