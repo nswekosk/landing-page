@@ -88,7 +88,7 @@ const About = props => {
             </Typography>
             <SectionHeader
               title="Move fast and create things."
-              subtitle="I’m a self-taught data engineer and former doctorate candidate with experience in economics, cloud-computing, and genomics. After paying off my undergraduate and graduate-school debt and moving up the corporate ladder, I took the entrepreneurial leap to build technology that improves the quality of life of those around me. When I'm not running Market Metrics, I'm conquering escape rooms and binge-watching Netflix with my friends and family."
+              subtitle="I’m a self-taught data engineer and former doctorate candidate with experience in economics, cloud-computing, and genomics. After paying off my undergraduate and graduate-school debt and moving up the corporate ladder, I took the entrepreneurial leap to build technology that improves the quality of life of those around me. When I'm not running Market Metrics, I'm conquering escape rooms and binge-watching Netflix with my friends and family. Check out the projects in the top navigation menu to learn more."
               subtitleColor="textPrimary"
               align="left"
               data-aos="fade-up"
@@ -110,8 +110,8 @@ const About = props => {
               <List disablePadding>
                 <ListItem disableGutters>
                   <ListItemText
-                    primary="Francis Schmitz"
-                    secondary="One of Nick’s Mentors and a Sr. Applications Developer @ Simplex Investments"
+                    primary="Francis Schmitz of Simplex Investments"
+                    secondary=""
                   />
                 </ListItem>
               </List>
