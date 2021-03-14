@@ -79,46 +79,12 @@ const Main = props => {
     <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
-            <b>Résumé Contents</b>
+            <b>Summary</b>
           </Typography>
           <Divider />
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Professional Experience
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Education
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Awards
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Research Experience
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Open-Source Projects
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Notable Side Projects
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-                Extra-Curricular Activities
-              </Typography>
-            </li>
-          </ul>
+          <Typography variant="h6" gutterBottom color="textPrimary">
+          I have been building web, mobile, and API-driven products as a Product Manager or Engineer for over six years. Most recently, I created Market Metrics which I took from an idea to a revenue-generating product. I am an expert in product, marketing, operations, and agile and waterfall mobile and web development. I am a highly organized team-player who can fill any role as a generalist and can dive deep to formulate innovative solutions to specific challenges. I am a self-taught engineer with graduate school experience.
+          </Typography>
         </Grid>
       </Grid>
       <Grid container spacing={4}>
@@ -133,36 +99,27 @@ const Main = props => {
             <b><a target="_blank" href="https://marketmetrics.io/" style={{textDecoration: "underline", color: "black"}}>Market Metrics</a>, CEO and Founder</b> [January 2020 to March 2021]
           </Typography>
           <Typography variant="h6" gutterBottom color="textPrimary">
-                <i>A Software-as-a-Service tool to enable marketing agencies to reduce the time spent doing non-billable work.</i>
+                <i>A SaaS-based web application that enables marketing agencies to reduce the time spent doing non-billable work.</i>
           </Typography>
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Secured 202 signups, 12 monthly and annual subscription sales, and generated $1K+ in revenue.
+              Owned the product strategy, roadmap, feature definition, go-to-market, and sales.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Validated the business use case and defined the product roadmap by doing 150+ interviews.
+              Led brainstorming sessions with prospective users to define business objectives and specifications.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Acquired customers by making 1.2K+ cold calls, emails, and LinkedIn private messages.
+              Grew acquisitions and retention by sourcing for 14 reporters and moderating a Slack community.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Increased referrals by 30.2% over 3 months by serving as a source for 14 reporters.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Moderated a Slack workspace, subReddit, and email newsletter to grow retention and activation.              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented all code in GoLang, React.js, and Google Cloud Platform.
+              Implemented code in GoLang and React.js and made deployments using Google Cloud Platform.
               </Typography>
             </li>
           </ul>
@@ -175,29 +132,24 @@ const Main = props => {
             <b>Eventy, CEO and Founder</b> [August 2018 to January 2020]
           </Typography>
           <Typography variant="h6" gutterBottom color="textPrimary">
-              <i>A marketplace that connects people through entertainment events using mobile and web applications.</i>
+              <i>A marketplace, known as 'Tinder for Events' that connects people through entertainment events using mobile and web applications.</i>
           </Typography>
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Acquired 2.6K+ weekly active users by promoting on Instagram, Facebook, and Twitter.
+              Acquired 2.6K+ WAU by social media marketing and partnering with the St. Louis Department of Tourism.
               </Typography>
             </li>  
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Onboarded 7 businesses through partnerships, including the St. Louis Department of Tourism.
+              Created a global geolocation algorithm and data pipeline to source with 198K entertainment events.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Built a data pipeline to source a geolocation algorithm with 198K+ events.
+              Implemented web and mobile apps in ReactNative, GoLang, React, and Google Cloud Platform.
               </Typography>
-            </li> 
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented web and mobile apps in GoLang, ReactNative, React, and Google Cloud Platform.
-              </Typography>
-            </li>         
+            </li>          
           </ul>
           <Typography variant="h6" gutterBottom color="textPrimary">
                 <b><a target="_blank" href="/eventy" style={{textDecoration: "underline"}}>Learn More About Eventy</a></b>
@@ -210,29 +162,19 @@ const Main = props => {
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Analyzed 60K variations of corn germplasm to create a pedigree classification algorithm.
+              Architected a pedigree classification algorithm by analyzing 60K variations of corn germplasm.
               </Typography>
             </li> 
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Built service to facilitate imputation to Google Kubernetes Engine clusters of up to 5K nodes.
+              Built a service to facilitate imputation to Google Kubernetes Engine clusters of up to 5K nodes.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Created service to define seed diversity sold in any market given a line item and breeding year.
+              Implemented data science logic, data pipelines, and HTTP and gRPC APIs in GoLang.
               </Typography>
-            </li>  
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Coded data science logic, data pipelines, HTTP and gRPC APIs, and Helm charts in GoLang.
-              </Typography>
-            </li>  
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Initialized documentation process to streamline the onboarding process for the engineering team.
-              </Typography>
-            </li>        
+            </li>       
           </ul>
           <Typography variant="h6" gutterBottom color="textPrimary">
                 <b><a target="_blank" href="/diversity-coefficient" style={{textDecoration: "underline"}}>Learn More About The Diversity Coefficient Service</a></b>
@@ -243,9 +185,14 @@ const Main = props => {
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Senior Software Developer</b> [May 2017 – October 2017]
+            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Promoted From Software Developer To Senior Software Developer</b> [February 2016 – October 2017]
           </Typography>
           <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Built APIs, middleware, notification pipeline, and logic to scale for 10K+ users.
+              </Typography>
+            </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
               Designed and built Chrome Extension to increase engagement to the cloud platform status page.
@@ -253,42 +200,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Architected, developed, and tested new features for 2 applications using GoLang and Javascript.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Provided 24/7 support to a multi-continental user base of over 10k+ on a biweekly basis.
-              </Typography>
-            </li>
-          </ul>
-          <Typography variant="h6" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="/ctl-status" style={{textDecoration: "underline"}}>Learn More About CenturyLink Cloud Status</a></b>
-          </Typography>
-        </Grid>
-        <Grid item xs={12}>
-          <Typography variant="h5" gutterBottom color="textPrimary">
-            <b><a target="_blank" href="http://status.ctl.io/" style={{textDecoration: "underline", color: "black"}}>CenturyLink Cloud</a>, Software Developer</b> [February 2016 – May 2017]
-          </Typography>
-          <ul style={{marginLeft: "2em"}}>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Built APIs, middleware, scripts, notification pipeline, and business logic to scale for 10K+ users.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Collaborated with the UI/UX team to build public-facing a user interface.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Coded frontend and backend in GoLang, Node.js, AngularJS, and Google Cloud Platform.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Initiated team process to optimize code versioning.
+              Collaborated with the UI/UX team to build 2 web apps in GoLang, JavaScript, and Google Cloud.
               </Typography>
             </li>
           </ul>

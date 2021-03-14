@@ -96,10 +96,7 @@ const Content = props => {
         During my summer and spring vacation periods, I volunteered in the physical therapy clinics at both the Jefferson Barracks and John Cochran branches of the St. Louis Veterans Affairs hospital system.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        I worked between one to three part-time jobs at various points of the doctorate program. As a parking garage attendant, I was essentially paid to study. As a bartender at Chuy Arzola’s, I was paid to have a social life. And as a caregiver for a gentleman with a C3 spinal cord injury, I learned firsthand how patients with complex central nervous systems conduct their activities of daily living without voluntary sensory or motor functionality below their shoulders.
-        </Typography>
-        <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        Ultimately, I fell in love with computer science and created my own <a target="_blank" href="/computer-science" style={{textDecoration: "underline"}}>computer science education program</a>. I began completing this program and my grades begin to decline. So I dropped out of my doctorate program, got a part time job, and began my journey towards a career in computer science.
+        Ultimately, my passion for computer science overshadowed my interest in physical therapy. So I created my own <a target="_blank" href="/computer-science" style={{textDecoration: "underline"}}>computer science education program</a>, left the physical therapy program, and took steps towards my ensuing software engineering career.
         </Typography>
       </div>
     </div>

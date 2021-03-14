@@ -96,10 +96,10 @@ const Content = props => {
         These open-source courses contained lectures with videos, powerpoints, and text documents. They provided homework assignments, tests, and quizzes for 3 years with the answers and explanations. Each course had syllabus and I was able to find the relevant textbook at my local library or online for free as a PDF document.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        While continuing my doctorate program, I began completing the introductory and mathematics courses in my personal time. After a year, I found myself spending more time learning the computer science subjects instead of the physical therapy content and my grades began to decline.
+        While continuing my doctorate program, I began completing the introductory and mathematics courses in my personal time. After a year, I found myself spending more time learning the computer science subjects instead of the physical therapy content.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
-        After doing terrible on a final exam on how to diagnose a patient, my professor if I would like to continue in the program for another year to retake the course. I declined and dropped out the next week. I began a job as a part-time physical therapy technician at DePaul Hospital’s rehabilitation clinic (in St. Louis, MO) and spent all of my personal time working through the computer science curriculum.
+        Half way through my second year, the head of our doctorate program asked if I would like to continue in the program. I declined and left the program the next week to begin a job as a part-time physical therapy technician at DePaul Hospital’s rehabilitation clinic (in St. Louis, MO) and spend my personal time working through the computer science curriculum.
         </Typography>
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
         In an effort to conserve money, I began going to local technology meetups where I could meet new people, learn about modern-day technology concepts, and eat the free dinners paid for by the corporate sponsors. 
