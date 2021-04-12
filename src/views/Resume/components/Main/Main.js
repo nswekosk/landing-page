@@ -109,12 +109,17 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Led brainstorming sessions with prospective users to define business objectives and specifications.
+              Built a sales force to grow acquisitions, revenue, and retention using Zoom, Slack, and HubSpot.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Grew acquisitions and retention by sourcing for 14 reporters and moderating a Slack community.
+              Led brainstorming sessions with prospective users to define business objectives and specifications.
+             </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Grew referrals by sourcing for 14 reporters and publishing content on our company sub-Reddit.
               </Typography>
             </li>
             <li>
