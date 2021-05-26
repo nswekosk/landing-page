@@ -226,38 +226,50 @@ export const articles = [
 
 export const folio = [
   {
-    cover: 'https://marketmetrics.io/images/illustrations/reports.gif',
-    title: 'Market Metrics - CEO, builder, and Founder',
+    cover: '/images/photos/blog/cryptosearch.png',
+    title: 'CryptoSearch - Builder and Maintainer',
+    link: "https://cryptosearch.info",
     subtitle:
-      'Software to Enable agencies to reduce the time spent doing non-billable work.',
+      'A search engine for crypto assets based on my market research on 6,689 unique projects defining their function, industry sector, and blockchain ecosystem.',
     h: 600,
   },
   {
-    cover: '/images/photos/blog/Screenshot2.png',
-    title: 'Eventy - CEO, builder, and Founder',
+    cover: 'https://marketmetrics.io/images/illustrations/reports.gif',
+    title: 'Market Metrics - CEO and Founder',
+    link: "/market-metrics",
     subtitle:
-      'A multi-sided marketplace that enables people to use software to connect through live experiences.',
+      'A SaaS reporting tool that enables marketing agencies to reduce the time spent doing non-billable work. Instead of spending 2-10 hours per week creating KPIs, dashboards, and charts, click a button to create them in seconds.',
+    h: 600,
+  },
+  {
+    cover: '/images/photos/blog/eventy/eventy-page.png',
+    title: 'Eventy - CEO and Founder',
+    link: "/eventy",
+    subtitle:
+      'A multi-sided marketplace known as \'Tinder for Events\' that enables people to connect through live experiences using a mobile app.',
     h: 1200,
   },
   {
     cover: '/images/photos/blog/galaxy.png',
     title: 'Pedigree Imputation - Data Engineer',
+    link: "/pedigree-imputation",
     subtitle:
-      'Use pedigree and ancestral genotype observations to infer the likely genotypes of maize population.',
+      'The 2nd-largest external project ever run on Google Cloud Platform that imputes the pedigress of 60,000+ unique corn germplasm and 17,000,000+ related inventory. Photo Credit: Tim Williamson (Twitter: @TimWilliate)',
     h: 900,
   },
   {
     cover: '/images/photos/blog/fred-alt.png',
-    title: 'Federal Reserve Economic Dataset Client - Developer & Maintainer',
-    subtitle:
-      'Open source software that enable developers to the programming language GoLang to interact with the Federal Resever Economic Dataset.',
+    title: 'Federal Reserve Economic Dataset Client - Builder & Maintainer',
+    link: "/fred",
+    subtitle: 'The only open-source GoLang toolkit recommended by the Federal Reserve for developers to integrate with the Federal Reserve Economic Dataset.',
     h: 500,
   },
   {
     cover: '/images/photos/blog/ctl-status.png',
-    title: 'CenturyLink Status - Developer',
+    title: 'CenturyLink Status - Senior Software Developer',
+    link: "/ctl-status",
     subtitle:
-      'A web app and Google Chrome extension that defines the status of every CenturyLink cloud-based infrastructure service in every global location.',
+      'A web-service and Google Chrome extension that provides the operational status and maintenance schedule of every CenturyLink cloud-based infrastructure service in every global location.',
     h: 500,
   }
 ];

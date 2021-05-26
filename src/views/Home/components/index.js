@@ -5,4 +5,5 @@ export { default as Articles } from './Articles';
 export { default as Landings } from './Landings';
 export { default as Main } from './Main';
 export { default as Pages } from './Pages';
+export { default as Projects } from './Projects';
 export { default as Signup } from './Signup';

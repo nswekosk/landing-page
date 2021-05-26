@@ -31,7 +31,7 @@ const Main = props => {
           pages: [
             {
               title: 'Doctorate Candidate',
-              href: '/physical-therapy',
+              href: '/physical-therapy?utm_source=nav_menu',
             }
           ],
         },
@@ -40,7 +40,7 @@ const Main = props => {
           pages: [
             {
               title: 'Self-Taught',
-              href: '/computer-science',
+              href: '/computer-science?utm_source=nav_menu',
             }
           ],
         }
@@ -55,7 +55,7 @@ const Main = props => {
           pages: [
             {
               title: 'Federal Reserve Economic Dataset',
-              href: '/fred',
+              href: '/fred?utm_source=nav_menu',
             }
           ],
         },
@@ -64,7 +64,7 @@ const Main = props => {
           pages: [
             {
               title: 'CenturyLink Status',
-              href: '/ctl-status',
+              href: '/ctl-status?utm_source=nav_menu',
             }
           ],
         },
@@ -73,11 +73,11 @@ const Main = props => {
           pages: [
             {
               title: 'Pedigree Imputation',
-              href: '/imputation',
+              href: '/imputation?utm_source=nav_menu',
             },
             {
               title: 'Breeding Diversity',
-              href: '/diversity-coefficient',
+              href: '/diversity-coefficient?utm_source=nav_menu',
             }
           ],
         }
@@ -92,7 +92,7 @@ const Main = props => {
           pages: [
             {
               title: 'Eventy',
-              href: '/eventy',
+              href: '/eventy?utm_source=nav_menu',
             }
           ],
         },
@@ -101,7 +101,7 @@ const Main = props => {
           pages: [
             {
               title: 'Market Metrics',
-              href: '/market-metrics',
+              href: '/market-metrics?utm_source=nav_menu',
             }
           ],
         }

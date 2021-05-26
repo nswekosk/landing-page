@@ -83,12 +83,9 @@ const About = props => {
       <div className={classes.hero}>
         <Section className={classes.section} disablePadding>
           <div className={classes.sectionHeader}>
-            <Typography variant="h6" gutterBottom color="textPrimary">
-              MISSION DRIVEN
-            </Typography>
             <SectionHeader
               title="Move fast and create things."
-              subtitle="I’m a self-taught data engineer and former doctorate candidate with experience in economics, cloud-computing, and genomics. After paying off my undergraduate and graduate-school debt and moving up the corporate ladder, I took the entrepreneurial leap to build technology that improves the quality of life of those around me. When I'm not running Market Metrics, I'm conquering escape rooms and binge-watching Netflix with my friends and family. Check out the projects in the top navigation menu to learn more."
+              subtitle="I have been building web, mobile, and API-driven products as a Product Manager or Engineer for over six years. Most recently, I created Market Metrics which I took from an idea to a revenue-generating product. I am an expert in product, marketing, operations, and agile and waterfall mobile and web development. I am a highly organized team-player who can fill any role as a generalist and can dive deep to formulate innovative solutions to specific challenges. I am a self-taught engineer with graduate school experience."
               subtitleColor="textPrimary"
               align="left"
               data-aos="fade-up"
@@ -121,7 +118,6 @@ const About = props => {
         <Image
           src="/images/photos/blog/Large_Photo.jpg"
           className={classes.image}
-          data-aos="fade-up"
           lazy={false}
         />
       </div>

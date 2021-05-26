@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Section, SectionAlternate } from 'components/organisms';
-import { About, Articles, Main, Hero, Signup } from './components';
-import { articles } from './data';
+import { About, Articles, Main, Hero, Signup, Projects } from './components';
+import { articles, folio } from './data';
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -16,10 +16,11 @@ const Home = () => {
       <Section>
         <Hero />
       </Section>
+      <About />
+      <Projects data={folio} />
       <SectionAlternate>
         <Articles data={articles} />
       </SectionAlternate>
-      <About />
       <SectionAlternate>
         <Signup />
       </SectionAlternate>
