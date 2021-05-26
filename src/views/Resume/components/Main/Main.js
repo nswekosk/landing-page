@@ -76,7 +76,52 @@ const Main = props => {
 
   return (
     <div className={clsx(classes.root, className)} {...rest}>
-    <Grid container spacing={4}>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
+          <Typography variant="h3" gutterBottom color="textPrimary">
+            <b>Résumé Contents</b>
+          </Typography>
+          <Divider />
+          <ul style={{marginLeft: "2em"}}>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Summary
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Professional Experience
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Education
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Awards
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Research Experience
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Notable Side Projects
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+                Extra-Curricular Activities
+              </Typography>
+            </li>
+          </ul>
+        </Grid>
+      </Grid>
+      <Grid container spacing={4}>
         <Grid item xs={12}>
           <Typography variant="h3" gutterBottom color="textPrimary">
             <b>Summary</b>

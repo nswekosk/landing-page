@@ -87,7 +87,7 @@ const Content = props => {
         <Typography style={{marginTop: "1em"}} component="p" variant="h6" color="textPrimary">
         I validated the business case and defined the product roadmap by completing 150+ prospective-user interviews over Zoom.
           To facilitate customer acquisitions, I made 30+ cold calls per day, completed demos and customer interviews over Zoom, posted content daily on social media. 
-          To increase revenue, I sold monthly and annual subscriptions generating $1K+ in revenue.
+          To increase revenue, I sold monthly and annual subscriptions by converting free trial users.
           After product launch, I grew customer referrals by 30.2% over 3 months by serving as a source for 14 published media articles. 
           To augment customer retention and activation, I built and moderated a Slack workspace and a subReddit and published a monthly email newsletter.
         </Typography>
