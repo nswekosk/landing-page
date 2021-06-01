@@ -226,14 +226,6 @@ export const articles = [
 
 export const folio = [
   {
-    cover: '/images/photos/blog/cryptosearch.png',
-    title: 'CryptoSearch - Builder and Maintainer',
-    link: "https://cryptosearch.info",
-    subtitle:
-      'A search engine for crypto assets based on my market research on 6,689 unique projects defining their function, industry sector, and blockchain ecosystem.',
-    h: 600,
-  },
-  {
     cover: 'https://marketmetrics.io/images/illustrations/reports.gif',
     title: 'Market Metrics - CEO and Founder',
     link: "/market-metrics",
@@ -254,7 +246,7 @@ export const folio = [
     title: 'Pedigree Imputation - Data Engineer',
     link: "/pedigree-imputation",
     subtitle:
-      'The 2nd-largest external project ever run on Google Cloud Platform that imputes the pedigress of 60,000+ unique corn germplasm and 17,000,000+ related inventory. Photo Credit: Tim Williamson (Twitter: @TimWilliate)',
+      'The 2nd-largest external project ever run on Google Cloud Platform that imputes the pedigrees of 60,000+ unique corn germplasm and 17,000,000+ related inventory. Photo Credit: Tim Williamson (Twitter: @TimWilliate)',
     h: 900,
   },
   {
@@ -271,6 +263,14 @@ export const folio = [
     subtitle:
       'A web-service and Google Chrome extension that provides the operational status and maintenance schedule of every CenturyLink cloud-based infrastructure service in every global location.',
     h: 500,
+  },
+  {
+    cover: '/images/photos/blog/cryptosearch.png',
+    title: 'CryptoSearch - Builder and Maintainer',
+    link: "https://cryptosearch.info",
+    subtitle:
+      'A search engine for crypto assets based on my market research on 6,689 unique projects defining their function, industry sector, and blockchain ecosystem.',
+    h: 600,
   }
 ];
 
