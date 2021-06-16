@@ -36,7 +36,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   section: {
-    paddingTop: 0,
+    paddingTop: "1em",
   },
   sectionHeader: {
     padding: theme.spacing(0, 2),
@@ -81,10 +81,15 @@ const About = props => {
   return (
     <div className={clsx(classes.root, className)} {...rest}>
       <div className={classes.hero}>
+        <Image
+          src="/images/photos/blog/Large_Photo.jpg"
+          className={classes.image}
+          lazy={false}
+        />
         <Section className={classes.section} disablePadding>
           <div className={classes.sectionHeader}>
             <SectionHeader
-              title="Move fast and create things."
+              title="Hi, I'm Nick Swekosky!"
               subtitle="I have been building web, mobile, and API-driven products as a Product Manager or Engineer for over six years. Most recently, I created Market Metrics which I took from an idea to a revenue-generating product. I am an expert in product, marketing, operations, and agile and waterfall mobile and web development. I am a highly organized team-player who can fill any role as a generalist and can dive deep to formulate innovative solutions to specific challenges. I am a self-taught engineer with graduate school experience."
               subtitleColor="textPrimary"
               align="left"
@@ -115,11 +120,6 @@ const About = props => {
             </CardBase>
           </div>
         </Section>
-        <Image
-          src="/images/photos/blog/Large_Photo.jpg"
-          className={classes.image}
-          lazy={false}
-        />
       </div>
     </div>
   );

@@ -13,9 +13,6 @@ const Home = () => {
 
   return (
     <div className={classes.root}>
-      <Section>
-        <Hero />
-      </Section>
       <About />
       <Projects data={folio} />
       <SectionAlternate>

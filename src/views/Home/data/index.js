@@ -226,7 +226,7 @@ export const articles = [
 
 export const folio = [
   {
-    cover: 'https://marketmetrics.io/images/illustrations/reports.gif',
+    cover: '/images/photos/blog/view-dashboards.gif',
     title: 'Market Metrics - CEO and Founder',
     link: "/market-metrics",
     subtitle:

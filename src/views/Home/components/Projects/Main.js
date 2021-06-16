@@ -76,7 +76,7 @@ const Main = props => {
         {wrapper.map((column, i) => (
           <div className={classes.gridWrapper} key={i}>
             {column.map((item, index) => (
-              <div className={classes.folioItem} key={index} data-aos="fade-up">
+              <div className={classes.folioItem} key={index}>
                 <Image
                   src={item.cover}
                   alt={item.title}
