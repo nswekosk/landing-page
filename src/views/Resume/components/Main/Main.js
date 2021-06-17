@@ -143,13 +143,20 @@ const Main = props => {
           <Typography variant="h5" gutterBottom color="textPrimary">
             <b><a target="_blank" href="https://marketmetrics.io/" style={{textDecoration: "underline", color: "black"}}>Market Metrics</a>, CEO and Founder</b> [January 2020 to March 2021]
           </Typography>
-          <Typography variant="h6" gutterBottom color="textPrimary">
-                <i>A SaaS-based web application that enables marketing agencies to reduce the time spent doing non-billable work.</i>
-          </Typography>
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Owned the product strategy, roadmap, feature definition, go-to-market, and sales.
+              Designed, built, and launched a SaaS reporting web app to enable marketing agencies to reduce the time spent doing non-billable work by clicking a button to build reports and analytics in seconds.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Led user interviews with prospective users to define needs, value, and willingness-to-purchase.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Implemented app code in GoLang and React and made deployments using Google Cloud Platform.
               </Typography>
             </li>
             <li>
@@ -159,17 +166,7 @@ const Main = props => {
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Led brainstorming sessions with prospective users to define business objectives and specifications.
-             </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
               Grew referrals by sourcing for 14 reporters and publishing content on our company sub-Reddit.
-              </Typography>
-            </li>
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented code in GoLang and React.js and made deployments using Google Cloud Platform.
               </Typography>
             </li>
           </ul>
@@ -179,27 +176,34 @@ const Main = props => {
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h5" gutterBottom color="textPrimary">
-            <b>Eventy, CEO and Founder</b> [August 2018 to January 2020]
-          </Typography>
-          <Typography variant="h6" gutterBottom color="textPrimary">
-              <i>A marketplace, known as 'Tinder for Events' that connects people through entertainment events using mobile and web applications.</i>
+            <b>Eventy (Pivoted to Market Metrics), CEO and Founder</b> [August 2018 to January 2020]
           </Typography>
           <ul style={{marginLeft: "2em"}}>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Acquired 2.6K+ WAU by social media marketing and partnering with the St. Louis Department of Tourism.
-              </Typography>
-            </li>  
-            <li>
-              <Typography variant="h6" gutterBottom color="textPrimary">
-              Created a global geolocation algorithm and data pipeline to source with 198K entertainment events.
+              Designed, built, and launched an iOS & Android mobile app known as ‘Tinder for Events’ and a web app that enabled marketing teams to promote events and create reports and analytics in seconds.
               </Typography>
             </li>
             <li>
               <Typography variant="h6" gutterBottom color="textPrimary">
-              Implemented web and mobile apps in ReactNative, GoLang, React, and Google Cloud Platform.
+              Validated idea and sold subscriptions by interviewing partners of St. Louis Department of Tourism.
               </Typography>
-            </li>          
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Acquired 2.6K+ WAU to mobile apps by social media marketing and word-of-mouth referrals.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Built web and mobile apps in ReactNative, GoLang, React, and Google Cloud Platform.
+              </Typography>
+            </li>
+            <li>
+              <Typography variant="h6" gutterBottom color="textPrimary">
+              Created a global geolocation algorithm and data pipeline to source with 198K entertainment events.
+              </Typography>
+            </li>    
           </ul>
           <Typography variant="h6" gutterBottom color="textPrimary">
                 <b><a target="_blank" href="/eventy" style={{textDecoration: "underline"}}>Learn More About Eventy</a></b>
